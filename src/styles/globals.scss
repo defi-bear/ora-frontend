@@ -1,0 +1,545 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Roboto:wght@300;500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.reg-btn {
+  background-color: #4AA3E0;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 15px;
+}
+
+.header-back {
+  background-color: #041D44;
+}
+
+.header-kanit {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.about-headline-roboto {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 53.5px;
+  line-height: 63px;
+  letter-spacing: 0.2em;
+
+  max-width: 460px;
+}
+
+.about-subline-roboto {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  
+  max-width: 457px;
+}
+
+.about-subline2-kanit {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 134.5%;
+  /* or 20px */
+
+  letter-spacing: -0.004em;
+  color: rgba(0, 0, 0, 0.55);
+  
+  max-width: 449px;
+}
+
+.about-email-input {
+  border: 3px solid #4AA3E0;
+  border-radius: 5px;
+
+  min-width: 287px;
+  max-width: 287px;
+
+  height: 40px;
+
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+
+  background: transparent;
+  width: 100%;
+  &:focus {
+    outline: none;
+  }
+}
+
+.about-email-input-tip {
+  font-family: Kanit;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 134.5%;
+  /* or 13px */
+
+  letter-spacing: -0.013em;
+
+  color: rgba(100, 14, 14, 0.55);
+}
+
+.about-text-blue {
+  color: #041D44;
+}
+
+.about-text-blue-light {
+  color: #4AA3E0;
+}
+
+.about-text-red {
+  color: rgba(100, 14, 14, 0.55);
+}
+
+.about-text-black {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.about-ora-description {
+  // opacity: 0.1;
+  box-shadow: 0px 0px 20px rgba(4, 29, 68, 0.075);
+  border-radius: 15px;
+
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.about-ora-description-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  /* identical to box height, or 28px */
+}
+
+.about-ora-description-subtitle {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+}
+
+.about-ora-description-content {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  opacity: 0.65;
+}
+
+.about-ora-description-footer {
+  max-width: 840px;
+
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 134.5%;
+  /* or 27px */
+
+  letter-spacing: -0.02em;
+}
+
+.about-ora-ecosystem-back {
+  background: linear-gradient(180deg, rgba(74, 163, 224, 0.05) 0%, rgba(74, 163, 224, 0) 100%);
+  // opacity: 0.05;
+  filter: drop-shadow(0px 0px 20px rgba(4, 29, 68, 0.0325));
+  border-radius: 15px;
+}
+
+.about-ora-ecosystem-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+}
+
+.about-how-it-works {
+  max-width: 1022px;
+}
+
+.about-how-it-works-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+}
+
+.about-learn-more {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.2222px;
+  line-height: 134.5%;
+  /* identical to box height, or 30px */
+
+  letter-spacing: -0.013em;
+}
+
+.about-footer {
+  background: radial-gradient(ellipse at center, #4AA3E0 0%, #4AA3E0 100%);
+  width: 120%;
+  height: 500px;
+  left: -10%;
+  border-radius: 50%;
+  top: -250px;
+}
+
+.about-preregister {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  text-align: center;
+  letter-spacing: -0.013em;
+}
+
+.about-totalsupply {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25.2px;
+  /* or 28px */
+
+  text-align: center;
+  letter-spacing: -0.013em;
+}
+
+.about-terms {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.013em;
+}
+
+.about-allrights-reserved {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.07em;
+
+  opacity: 0.85;
+}
+
+.about-contact-us {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.013em;
+}
+
+.about-email-info {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.013em;
+
+  opacity: 0.8;
+}
+
+.about-preregister-email-input {
+  border-radius: 5px;
+
+  min-width: 479px;
+  max-width: 479px;
+  height: 52px;
+
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+
+  background: white;
+  color: black;
+  width: 100%;
+  &:focus {
+    outline: none;
+  }
+}
+
+.roadmap-headline {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #4AA3E0;
+}
+
+.roadmap-headline-line {
+  border-bottom: 1.5px solid #041D44;
+}
+
+.roadmap-headline-description {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+}
+
+.roadmap-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+}
+
+.roadmap-content {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+}
+
+.roadmap-title-border-bottom {
+  border-bottom: 1px solid #041D44;
+}
+
+.roadmap-title-border-bottom-light {
+  border-bottom: 1px solid #4AA3E0;
+}
+
+.roadmap-title-min-width {  
+  min-width: 223px;
+}
+
+.roadmap-content-border-right {
+  border-right: 1px solid #041D44;
+}
+
+.roadmap-content-border-right-light {
+  border-right: 1px solid #4AA3E0;
+}
+
+.roadmap-content-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: -10px;
+  top: -10px;
+}
+
+.roadmap-content-circle-back {
+  background-color: #041D44;
+}
+
+.roadmap-content-circle-back-light {
+  background-color: #4AA3E0;
+}
+
+.team-member-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.team-member-description {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+}
+
+.team-member-profilecard {
+  max-width: 585px;
+}
+
+.team-member-load-more {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  color: #4AA3E0;
+}
+
+.time-token-dashed {
+  border: 1px dashed #4AA3E0;
+  box-sizing: border-box;
+}
+
+.time-token-percent {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.time-token-opacity-65 {
+  opacity: 0.65;
+}
+
+.time-token-tick {
+  width: 18px;
+  height: 18px;
+}
+
+.time-token-tick-team {
+  background: #3B84CC;
+}
+
+.time-token-tick-presale {
+  background: #2E3192;
+}
+
+.time-token-tick-airdrop {
+  background: #848999;
+}
+
+.time-token-tick-offering {
+  background: #041D44;
+}
+
+.time-token-notes {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  /* or 40px */
+
+  max-width: 1068px;
+}
+
+.time-token-whitepaper {
+  left: 120px;
+  top: 35px;
+}
+
+.airdrop-headline {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.airdrop-split {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.airdrop-free {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 200%;
+  /* or 50px */
+}
+
+.airdrop-free-description {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  /* or 50px */
+}
+
+.faq-description {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 166%;
+  /* or 33px */
+}
+
+.faq-pair {
+  max-width: 1029px;
+  text-align: justify;
+}
+
+.faq-welcome {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  text-align: center;
+  letter-spacing: -0.013em;
+}

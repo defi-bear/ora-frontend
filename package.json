@@ -1,0 +1,47 @@
+{
+  "name": "ora",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write"
+    ],
+    "*.{md,css}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run lint"
+    }
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "lint-staged": "^11.1.2",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.37.5"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.17",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "^7.0.1",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "tailwindcss": "^2.2.7",
+    "typescript": "4.3.5"
+  }
+}
