@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           </div>
           <div className='flex items-center sm:mt-6'>
             <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
-            <div className='sm:ml-3 about-text-blue-light'>
+            <div className='sm:ml-3 about-text-blue-light cursor-pointer'>
               <ArrowRightIcon width={26} height={26} />
             </div>
           </div>
