@@ -143,10 +143,12 @@ const Home: NextPage = () => {
         <div className='about-text-blue'>
           Learn more by reading our
         </div>
-        <div className='about-text-blue-light flex items-center'>
-          &nbsp;Whitepaper&nbsp;
-          <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
-        </div>
+        <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
+          <div className='about-text-blue-light flex items-center cursor-pointer'>
+            &nbsp;Whitepaper&nbsp;
+            <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
+          </div>
+        </a>
       </div>
       <div className='flex relative sm:mt-96'>
         <div className='absolute about-footer'>
@@ -158,7 +160,7 @@ const Home: NextPage = () => {
           </div>
           <div className='flex justify-center items-center sm:mt-6'>
             <input type='text' className='about-preregister-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
-            <div className='sm:ml-3 text-white curosr-pointer'>
+            <div className='sm:ml-3 text-white cursor-pointer'>
               <ArrowRightIcon width={26} height={26} />
             </div>
           </div>
