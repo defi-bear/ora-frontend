@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={123} />
-      <div className='flex justify-between sm:mx-96'>
+      <div className='flex justify-between 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex flex-col flex-1 sm:mt-28'>
           <div className='about-headline-roboto opacity-80'>
             The Future of Data
@@ -41,11 +41,11 @@ const Home: NextPage = () => {
             By registering your email with us you are agreeing to our privacy policy
           </div>
         </div>
-        <div className='flex-1 sm:mt-20 sm:ml-32'>
+        <div className='flex-1 sm:mt-20 xl:ml-32 md:ml-8'>
           <Image src={AboutImage} alt='About Image' />
         </div>
       </div>
-      <div className='flex flex-col sm:mx-auto about-ora-description sm:px-20 sm:py-16 sm:mt-28'>
+      <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28'>
         <div className='about-ora-description-title about-text-blue'>
           Ora is on a mission to re-invent and modernize the data industry
         </div>
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
           Ora’s ecosystem is powered by a utility token called TIME.
         </div>
       </div>
-      <div className='flex flex-col sm:mx-60 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
+      <div className='flex flex-col 2xl:mx-60 xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
         <div className='about-ora-ecosystem-title'>
           TIME powers the Ora ecosystem.
         </div>
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
           <Image src={EcoSystemImage} alt='EcoSystem Image' />
         </div>
       </div>
-      <div className='about-how-it-works flex flex-col sm:mx-auto'>
+      <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8'>
         <div className='about-how-it-works-title flex justify-center'>
           How It Works
         </div>
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
       </div>
       <div className='flex relative sm:mt-96'>
         <div className='absolute about-footer'>
-          <div className='about-preregister text-white sm:mt-16'>
+          <div className='about-preregister text-white lg:mt-16 md:mt-24'>
             Pre-register below to be one of the lucky individuals to receive the <span className='underline cursor-pointer'>Ora Airdrop!</span>
           </div>
           <div className='about-totalsupply text-white'>

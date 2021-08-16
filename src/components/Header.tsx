@@ -20,12 +20,12 @@ export default function Header({ height } : HeaderProps) {
   return (
     <div className='z-50'>
       <div
-        className='flex items-center text-white header-back header-kanit sm:px-96 sm:justify-between'
+        className='flex items-center text-white header-back header-kanit 2xl:px-60 xl:px-36 lg:px-16 md:px-2 sm:justify-between'
         style={getStyle()}
       >
-        <Link href="/">
+        <a href='/' rel='noreferrer'>
           <Image src={Logo} alt='Logo' className='cursor-pointer' />
-        </Link>
+        </a>
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
           <div className='flex items-center cursor-pointer'>
             <div className='mr-1'>

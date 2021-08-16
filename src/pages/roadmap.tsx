@@ -14,7 +14,7 @@ const Roadmap: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={123} />
-      <div className='sm:mx-96 sm:mt-28'>
+      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Road<span className='about-text-blue'>map</span>
@@ -25,7 +25,7 @@ const Roadmap: NextPage = () => {
           Ora's timeline and deliverables.
         </div>
       </div>
-      <div className='sm:mt-20 sm:mx-96 sm:mb-60'>
+      <div className='sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mb-60'>
         <div className='flex'>
           <div className='flex-1 roadmap-title flex justify-end'>
             <div className='roadmap-title-border-bottom sm:pr-16 flex justify-end'>

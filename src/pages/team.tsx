@@ -396,7 +396,7 @@ const Team: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={123} />
-      <div className='sm:mx-96 sm:mt-28'>
+      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Team<span className='about-text-blue'>&nbsp;Memebers</span>
@@ -404,7 +404,7 @@ const Team: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar01'} name={'Ted Colivas'} position={'CEO'} description={team[0]}/>
         </div>
@@ -412,7 +412,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar02'} name={'Dr. Atif Kubursi Ph.D.'} position={'Chairman'} description={team[1]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar03'} name={'Adam Berze'} position={'Founder | President & CMO'} description={team[2]}/>
         </div>
@@ -420,7 +420,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar04'} name={'Victor Ruscitto'} position={'CTO'} description={team[3]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar05'} name={'Jim Andriopoulos CPA, CA, MBA'} position={'CFO'} description={team[4]}/>
         </div>
@@ -428,7 +428,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'VP Business Development'} description={team[5]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar07'} name={'Dylan Payne'} position={'VP Operations'} description={team[6]}/>
         </div>
@@ -436,12 +436,12 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar08'} name={'Donald Thanate'} position={'Design'} description={team[7]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80 justify-center items-center'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 justify-center items-center'>
         <div className='flex-1 team-member-profilecard'>
           <ProfileCard avatar={'avatar09'} name={'Shing Ho Tan'} position={'Blockchain & Full Stack Developer'} description={team[8]}/>
         </div>
       </div>
-      <div className='sm:mx-96 sm:mt-28'>
+      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Ad<span className='about-text-blue'>visors</span>
@@ -449,7 +449,7 @@ const Team: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar10'} name={'Dr. Amir Memar Ph.D. - Advisor'} position={'AI & Advanced Analytics'} description={team[9]}/>
         </div>
@@ -457,7 +457,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar11'} name={'Dr. Lin Gao Ph.D. - Advisor'} position={'Data Scientist'} description={team[10]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar12'} name={'Matthew Burgoyne - Advisor'} position={'Canadian Securities and Crypto Law'} description={team[11]}/>
         </div>
@@ -465,7 +465,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar13'} name={'Adriaan Brink'} position={'Crypto and Gaming'} description={team[12]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar14'} name={'Jaap Harmsma - Advisor'} position={'Blockchain'} description={team[13]}/>
         </div>
@@ -473,7 +473,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar15'} name={'Domenic Alfieri - Advisor'} position={'Regulatory / Governance'} description={team[14]}/>
         </div>
       </div>
-      <div className='flex sm:mt-20 sm:mx-80 sm:mb-40'>
+      <div className='flex sm:mt-20 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40'>
         <div className='flex-1 team-member-profilecard sm:mr-32'>
           <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>
         </div>

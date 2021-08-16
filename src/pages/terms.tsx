@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
 
 import LogoS from '../assets/png/logos.png';
 
@@ -12,10 +12,12 @@ const Terms: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <div className='sm:mx-12 sm:mt-10 flex justify-end'>
-        <Image src={LogoS} alt='LogoS' />
+      <div className='sm:mx-12 sm:mt-10 flex justify-end cursor-pointer'>
+        <a href='/' rel='noreferrer'>
+          <Image src={LogoS} alt='LogoS' />
+        </a>
       </div>
-      <div className='sm:mt-12 sm:mx-24 terms sm:mx-auto'>
+      <div className='sm:mt-12 terms xl:mx-auto lg:mx-12 md:mx-8'>
         <div className='terms-description'>
           <span className='terms-title'>
             Terms of Service

@@ -15,7 +15,7 @@ const Faq: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={123} />
-      <div className='sm:mx-96 sm:mt-28'>
+      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             FAQ
@@ -23,7 +23,7 @@ const Faq: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mt-16 sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mt-16 sm:mb-10'>
         <div className='sm:mr-3'>
           1.
         </div>
@@ -36,7 +36,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           2.
         </div>
@@ -49,7 +49,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           3.
         </div>
@@ -62,7 +62,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           4.
         </div>
@@ -75,7 +75,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           5.
         </div>
@@ -88,7 +88,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           6.
         </div>
@@ -101,7 +101,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           7.
         </div>
@@ -114,7 +114,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           8.
         </div>
@@ -130,7 +130,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           9.
         </div>
@@ -146,7 +146,7 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex sm:mx-96 faq-description sm:mb-10'>
+      <div className='flex 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mb-10'>
         <div className='sm:mr-3'>
           10.
         </div>
@@ -160,10 +160,10 @@ const Faq: NextPage = () => {
         </div>
       </div>
       <div className='flex airdrop-split sm:mt-10 sm:mb-20' />
-      <div className='flex justify-center sm:mx-96 faq-welcome sm:mb-10'>
+      <div className='flex justify-center 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 faq-welcome sm:mb-10'>
         Ora welcomes further questions and discussion
       </div>
-      <div className='flex justify-center sm:mx-96 sm:mb-10 text-white items-center'>
+      <div className='flex justify-center 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 text-white items-center'>
         <RegButton width={224} height={36} title={'Join Our Community'} />
       </div>
       <Footer height={270} />

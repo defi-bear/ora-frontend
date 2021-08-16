@@ -21,7 +21,7 @@ export default function Footer({ height } : FooterProps) {
   return (
     <div className='z-50 header-back header-kanit'>
       <div
-        className='flex items-center text-white sm:px-96 sm:justify-between'
+        className='flex items-center text-white 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between'
         style={getStyle()}
       >
         <Image src={Logo2} alt='Logo2' />
