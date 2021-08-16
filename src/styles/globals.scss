@@ -447,7 +447,7 @@ a {
   line-height: 200%;
 }
 
-.time-token-opacity-65 {
+.opacity-65 {
   opacity: 0.65;
 }
 
@@ -542,4 +542,52 @@ a {
 
   text-align: center;
   letter-spacing: -0.013em;
+}
+
+.terms-title {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 166%;
+}
+
+.terms {
+  max-width: 1029px;
+}
+
+.terms-description {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 166%;
+  /* or 33px */
+}
+
+.terms-description-bold-500 {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 166%;
+  /* or 33px */
+}
+
+.terms-description-bold-600 {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 166%;
+  /* or 33px */
+}
+
+.terms-subtitle {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 166%;
+  /* or 41px */
 }

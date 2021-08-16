@@ -391,7 +391,7 @@ const Team: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
-        <title>Ora</title>
+        <title>Ora - Team</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
