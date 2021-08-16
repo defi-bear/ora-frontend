@@ -73,7 +73,7 @@ const Team: NextPage = () => {
     ],
     [ // CTO
       {
-        desc: 'Systems architect with 27 years of experience, specialized in designing and building distributed, scalable systems.',
+        desc: 'Systems Architect with over 25 years of experience, specializing in designing and building distributed, scalable systems.',
         abstr: true
       },
       {
@@ -81,15 +81,15 @@ const Team: NextPage = () => {
         abstr: true
       },
       {
-        desc: 'Began his first start-up in 1999 which was acquired by Jana Systems in 1999 and later bought by Siebel for $1.4 Billion.',
+        desc: 'Began his first start-up in 1995 which was acquired by Jana Systems in 1999 and later bought by Siebel for $1.4 Billion.',
         abstr: true
       },
       {
-        desc: 'Seven years Senior Systems Architect for online gaming developer IQ Ludorum building secure encryption and financial transaction processing systems.',
+        desc: 'Senior Systems Architect for online gaming developer IQ Ludorum building secure gaming systems and financial transaction processing systems.',
         abstr: false
       },
       {
-        desc: 'Technical lead and Architecture for RBC’s $300M global cloud deployment initiative.',
+        desc: 'Technical Lead and Architect at RBC working on Phase 1 of a global cloud deployment initiative. Total budget of $300M.',
         abstr: false
       },
       {

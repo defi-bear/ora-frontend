@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "oratechio"
+  },
+  "targets": {
+    "oratechio": {
+      "hosting": {
+        "oraapp": [
+          "oraapp"
+        ]
+      }
+    }
+  }
+}
