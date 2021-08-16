@@ -1,6 +1,7 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from 'next';
+import { useEffect, useState } from 'react';
+import Head from 'next/head';
+import Image from 'next/image';
 import { ArrowRightIcon } from "@heroicons/react/outline";
 
 import Header from '../components/Header'
@@ -14,6 +15,12 @@ import TickSvg from '../components/TickSvg';
 import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const Home: NextPage = () => {
+  const [piece, setPiece] = useState('Future');
+
+  useEffect(() => {
+
+  }, []);
+
   return (
     <div className='flex flex-col overflow-hidden'>
       <Head>
@@ -22,10 +29,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={123} />
-      <div className='flex justify-between 2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6'>
+      <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex flex-col flex-1 sm:mt-28'>
           <div className='about-headline-roboto opacity-80'>
-            The Future of Data
+            The { piece } of Data
           </div>
           <div className='about-subline-roboto opacity-80 sm:mt-5'>
             Discover the easiest way to earn lucrative rewards for your data!
@@ -90,7 +97,7 @@ const Home: NextPage = () => {
           Ora’s ecosystem is powered by a utility token called TIME.
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-60 xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
         <div className='about-ora-ecosystem-title'>
           TIME powers the Ora ecosystem.
         </div>
