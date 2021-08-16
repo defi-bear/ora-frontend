@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import { ArrowRightIcon } from "@heroicons/react/outline";
@@ -16,9 +16,28 @@ import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
+  const [ind, setInd] = useState(0);
 
   useEffect(() => {
+    console.log(ind);
+    if (ind%3 === 0) {
+      setPiece('Future');
+    } else if (ind%3 === 1) {
+      setPiece('Power');
+    } else {
+      setPiece('Evolution');
+    }
+  }, [ind]);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setInd(prevInd => prevInd + 1);
+    }, 5000);
+  
+    return () => {
+      console.log(`clearing interval`);
+      clearInterval(interval);
+    };
   }, []);
 
   return (
