@@ -6,7 +6,9 @@ import { ArrowRightIcon } from "@heroicons/react/outline";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import AboutImage from '../assets/png/01.png';
+import AboutImage1 from '../assets/png/0101.png';
+import AboutImage2 from '../assets/png/0102.png';
+import AboutLogoImage from '../assets/gif/aboutlogo.gif';
 import EcoSystemImage from '../assets/png/02.png';
 import TickSvg from '../components/TickSvg';
 import WhitePaperSvg from '../components/WhitePaperSvg';
@@ -41,8 +43,12 @@ const Home: NextPage = () => {
             By registering your email with us you are agreeing to our privacy policy
           </div>
         </div>
-        <div className='flex-1 sm:mt-20 xl:ml-32 md:ml-8'>
-          <Image src={AboutImage} alt='About Image' />
+        <div className='flex-1 sm:mt-20 flex'>
+          <Image src={AboutImage1} alt='About Image1' layout='intrinsic' />
+          <div className='mx-5 mt-10'>
+            <Image src={AboutLogoImage} alt='About Image Logo' layout='intrinsic' />
+          </div>
+          <Image src={AboutImage2} alt='About Image2' layout='intrinsic' />
         </div>
       </div>
       <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28'>
