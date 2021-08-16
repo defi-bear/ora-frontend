@@ -13,7 +13,7 @@ const TimeToken: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
-        <title>Ora</title>
+        <title>Ora - TIME Token</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
@@ -34,24 +34,24 @@ const TimeToken: NextPage = () => {
           <Image src={LogoX} alt='LogoX Image' />
           <div className='flex flex-col time-token-percent'>
             <div>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Token:&nbsp;
               </span>
               <span className='about-text-blue'>
                 TIME
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 &nbsp;an&nbsp;
               </span>
               <span className='about-text-blue'>
                 ERC20
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 &nbsp;token
               </span>
             </div>
             <div>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Supply:&nbsp;
               </span>
               <span className='about-text-blue'>
@@ -59,7 +59,7 @@ const TimeToken: NextPage = () => {
               </span>
             </div>
             <div className='flex time-token-percent'>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Supply Breakdown:
               </span>
             </div>
@@ -69,7 +69,7 @@ const TimeToken: NextPage = () => {
               <span className='about-text-blue'>
                 &nbsp;35%&nbsp;
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Team, Advisors, Future Hires
               </span>
             </div>
@@ -79,33 +79,33 @@ const TimeToken: NextPage = () => {
               <span className='about-text-blue'>
                 &nbsp;15%&nbsp;
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Token Pre-Sale
               </span>
             </div>
             <div className='flex time-token-percent items-center'>
               <span className='time-token-tick time-token-tick-airdrop'>
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 &nbsp;5
               </span>
               <span className='about-text-blue'>
                 %&nbsp;
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Airdrop To Early Registrations
               </span>
             </div>
             <div className='flex time-token-percent items-center'>
               <span className='time-token-tick time-token-tick-offering'>
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 &nbsp;45
               </span>
               <span className='about-text-blue'>
                 %&nbsp;
               </span>
-              <span className='time-token-opacity-65'>
+              <span className='opacity-65'>
                 Initial Token Offering
               </span>
             </div>
@@ -118,7 +118,7 @@ const TimeToken: NextPage = () => {
         </div>
         <ul className='list-disc list-inside'>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the
               <span className='flex about-text-blue-light items-center absolute time-token-whitepaper'>
                 &nbsp;whitepaper.
@@ -127,27 +127,27 @@ const TimeToken: NextPage = () => {
             </span>
           </li>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               Inflation is directly correlated to registrations, data creation and is managed with smart contracts.
             </span>
           </li>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the whitepaper.
             </span>
           </li>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               5% of Ora’s revenue will eventually go towards buying and burning TIME from existence to create a complete circle utility for data providers and TIME holders.
             </span>
           </li>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               Pre-sale and team tokens are vested.
             </span>
           </li>
           <li>
-            <span className='time-token-opacity-65 relative'>
+            <span className='opacity-65 relative'>
               With the constant payment of TIME to users for data and eventually attention, despite the staking mechanism, the TIME token will become <span className='italic'>more decentralized with each passing year.</span>
             </span>
           </li>

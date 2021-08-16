@@ -11,7 +11,7 @@ const AirDrop: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
-        <title>Ora</title>
+        <title>Ora - Airdrop</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
@@ -29,7 +29,7 @@ const AirDrop: NextPage = () => {
           <Image src={AirdropImage} alt='Airdrop Image' />
         </div>
         <div className='airdrop-headline sm:mt-20'>
-          <span className='time-token-opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='time-token-opacity-65'>for a FREE airdrop to users.</span>
+          <span className='opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to users.</span>
         </div>
       </div>
       <div className='flex flex-col sm:mx-96 items-center airdrop-split sm:mb-16'>
@@ -42,30 +42,30 @@ const AirDrop: NextPage = () => {
           -&nbsp;Simple!
         </div>
         <div className='flex flex-col about-text-blue sm:mb-16'>
-          <div className='sm:mb-16 time-token-opacity-65'>
+          <div className='sm:mb-16 opacity-65'>
             Be one of the first 10,000 app registrations or register within the first month of app launch.
           </div>
           <div>
-            <span className='time-token-opacity-65'>
+            <span className='opacity-65'>
               Step 1: Preregister for the app release via email in our “
             </span>
             <span className='about-text-blue-light'>
               &nbsp;Registration&nbsp;
             </span>
-            <span className='time-token-opacity-65'>
+            <span className='opacity-65'>
               ” tab.
             </span>
           </div>
-          <div className='time-token-opacity-65'>
+          <div className='opacity-65'>
             Step 2: Wait for our email to let you know the app is live.
           </div>
-          <div className='time-token-opacity-65'>
+          <div className='opacity-65'>
             Step 3: Register for FREE when the app goes live.
           </div>
-          <div className='time-token-opacity-65'>
+          <div className='opacity-65'>
             Step 4: Do nothing, sit back and relax and see the tokens appear in your in-app wallet at the end of the month.
           </div>
-          <div className='time-token-opacity-65'>
+          <div className='opacity-65'>
             Step 5: Welcome to the Time Tribe (#TimeTribe), refer friends to start earning even more!
           </div>
         </div>
