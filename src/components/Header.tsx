@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
 
 import RegButton from './RegButton';
 
@@ -23,7 +23,9 @@ export default function Header({ height } : HeaderProps) {
         className='flex items-center text-white header-back header-kanit sm:px-96 sm:justify-between'
         style={getStyle()}
       >
-        <Image src={Logo} alt='Logo' />        
+        <Link href="/">
+          <Image src={Logo} alt='Logo' className='cursor-pointer' />
+        </Link>
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
           <div className='flex items-center cursor-pointer'>
             <div className='mr-1'>
