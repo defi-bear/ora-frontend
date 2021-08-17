@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 import LogoX from '../assets/svg/logox.svg';
 import TimeTokenImage from '../assets/png/03.png';
-import WhitePaperSvg from '../components/WhitePaperSvg';
+// import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const TimeToken: NextPage = () => {
   return (
@@ -120,12 +120,15 @@ const TimeToken: NextPage = () => {
         </div>
         <ul className='list-disc list-outside sm:ml-6'>
           <li>
-            <span className='opacity-65 relative'>
-              The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the
-              <span className='flex about-text-blue-light items-center absolute time-token-whitepaper'>
-                &nbsp;whitepaper.
-                <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
-              </span>
+            <span className='opacity-65'>
+              The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the&nbsp;
+              <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
+                <span className='about-text-blue-light time-token-whitepaper'>
+                  whitepaper
+                  {/* <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} /> */}
+                </span>
+                .
+              </a>
             </span>
           </li>
           <li>
@@ -135,7 +138,7 @@ const TimeToken: NextPage = () => {
           </li>
           <li>
             <span className='opacity-65 relative'>
-              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the whitepaper.
+              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light'>whitepaper</span></a>.
             </span>
           </li>
           <li>
