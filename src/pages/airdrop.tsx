@@ -32,14 +32,14 @@ const AirDrop: NextPage = () => {
           <span className='opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to early registrants and users.</span>
         </div>
       </div>
-      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free'>
-        How to get this<span className='about-text-blue-light italic'>&nbsp;FREE&nbsp;</span>airdrop?
-        <div className='italic about-text-blue'>
+      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free items-center'>
+        How to get this<span className='about-text-blue-light time-token-free'>&nbsp;FREE&nbsp;</span>airdrop?
+        <div className='italic about-text-blue time-token-simple sm:mt-1'>
           &nbsp;-&nbsp;Simple!
         </div>
       </div>
       <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 airdrop-free-description'>
-        <div className='flex flex-col about-text-blue sm:mb-10'>
+        <div className='flex flex-col about-text-blue sm:mb-20'>
           <div className='sm:mb-8 opacity-65'>
             Be one of the first 10,000 app registrations or register within the first month of app launch.
           </div>
