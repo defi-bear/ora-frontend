@@ -175,7 +175,7 @@ const Roadmap: NextPage = () => {
                 Revenue generation accelerates
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
-                Buying and burning of TIME derived from Ora revenue
+                TIME deflation begins, % of revenue will be used to buy and burn TIME
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Full circle tokenomics take flight
