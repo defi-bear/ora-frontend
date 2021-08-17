@@ -14,7 +14,7 @@ import AboutImage2 from '../assets/png/0102.png';
 import AboutLogoImage from '../assets/gif/aboutlogo.gif';
 import EcoSystemImage from '../assets/png/02.png';
 import TickSvg from '../components/TickSvg';
-import WhitePaperSvg from '../components/WhitePaperSvg';
+// import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
@@ -185,7 +185,7 @@ const Home: NextPage = () => {
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
           <div className='about-text-blue-light flex items-center cursor-pointer'>
             &nbsp;Whitepaper&nbsp;
-            <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
+            {/* <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} /> */}
           </div>
         </a>
       </div>
