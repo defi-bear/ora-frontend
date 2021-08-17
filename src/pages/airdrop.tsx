@@ -36,11 +36,11 @@ const AirDrop: NextPage = () => {
         How to get this<span className='about-text-blue-light italic'>&nbsp;FREE&nbsp;</span>airdrop?
       </div>
       <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 airdrop-free-description'>
-        <div className='italic about-text-blue sm:mb-16'>
+        <div className='italic about-text-blue sm:mb-8'>
           -&nbsp;Simple!
         </div>
-        <div className='flex flex-col about-text-blue sm:mb-16'>
-          <div className='sm:mb-16 opacity-65'>
+        <div className='flex flex-col about-text-blue sm:mb-10'>
+          <div className='sm:mb-8 opacity-65'>
             Be one of the first 10,000 app registrations or register within the first month of app launch.
           </div>
           <div>
