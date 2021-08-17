@@ -74,7 +74,7 @@ export default function Footer({ height } : FooterProps) {
           </div>
         </div>
         <div className='about-allrights-reserved'>
-          © Ora.app all Rights Reserved.
+          © Ora.app 2021 - All Rights Reserved.
         </div>
       </div>
     </div>
