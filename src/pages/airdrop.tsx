@@ -29,7 +29,7 @@ const AirDrop: NextPage = () => {
           <Image src={AirdropImage} alt='Airdrop Image' />
         </div>
         <div className='airdrop-headline sm:mt-20'>
-          <span className='opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to users.</span>
+          <span className='opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to early registrants and users.</span>
         </div>
       </div>
       <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free'>
