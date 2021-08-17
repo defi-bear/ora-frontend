@@ -33,7 +33,7 @@ export default function Footer({ height } : FooterProps) {
           </div>
           <div className='flex flex-col'>
             <div className='sm:mb-2'>
-              Our Social Media
+              Ora on Social Media
             </div>
             <div className='flex justify-end'>
               <div className='mr-2'>
