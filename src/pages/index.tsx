@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           Ora is on a mission to re-invent and modernize the data industry
         </div>
         <div className='about-ora-description-subtitle about-text-blue sm:mt-12'>
-          Ora will offers online users: 
+          Ora offers online users: 
         </div>
         <div className='about-ora-description-subtitle sm:mt-3 flex items-center'>
           <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
