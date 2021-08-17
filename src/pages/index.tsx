@@ -202,7 +202,7 @@ const Home: NextPage = () => {
             5% of the total TIME supply will be used for an airdrop to early users!
           </div>
           <div className='flex justify-center items-center sm:mt-6'>
-            <input type='text' className='about-preregister-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
+            <input type='text' className='about-preregister-email-input px-4 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
             <div className='sm:ml-3 text-white cursor-pointer'>
               <ArrowRightIcon width={26} height={26} />
             </div>
