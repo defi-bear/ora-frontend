@@ -86,7 +86,8 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className='flex items-center sm:mt-4 about-email-input-tip'>
-            By registering your email with us you are agreeing to our privacy policy
+            By registering your email with us you are agreeing with our&nbsp;<span className='about-text-blue-light underline'>privacy policy</span>&nbsp;and&nbsp;
+          <a href="/terms" target='_blank' rel='noreferrer'><span className='about-text-blue-light underline'>terms of service</span></a>.
           </div>
         </div>
         <div className='flex-1 sm:mt-20 flex'>
