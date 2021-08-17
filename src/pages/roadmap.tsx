@@ -147,7 +147,7 @@ const Roadmap: NextPage = () => {
               </div>
               <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
-                  Marketing ramps up targeting user growth
+                  Marketing ramps up targeting user growth and data customers
                 </span>
               </div>
               <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
