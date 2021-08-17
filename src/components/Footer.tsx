@@ -5,7 +5,7 @@ import Logo2 from '../assets/svg/logo2.svg';
 import Reddit from '../assets/png/reddit.png';
 import Twitter from '../assets/png/twitter.png';
 import Telegram from '../assets/png/telegram.png';
-import WhitePaperSvg from './WhitePaperSvg';
+// import WhitePaperSvg from './WhitePaperSvg';
 
 interface FooterProps {
   height: number
@@ -62,7 +62,7 @@ export default function Footer({ height } : FooterProps) {
               <div className='mr-1'>
                 Terms of Services
               </div>
-              <WhitePaperSvg width={16} height={16} fill={"#ffffff"} />
+              {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
             </div>
           </a>
           <div className='border-r border-white sm:mx-3' />
@@ -70,7 +70,7 @@ export default function Footer({ height } : FooterProps) {
             <div className='mr-1'>
               Privacy Policy
             </div>
-            <WhitePaperSvg width={16} height={16} fill={"#ffffff"} />
+            {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
           </div>
         </div>
         <div className='about-allrights-reserved'>
