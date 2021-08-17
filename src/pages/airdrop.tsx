@@ -16,7 +16,7 @@ const AirDrop: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Air<span className='about-text-blue'>drop</span>
@@ -24,7 +24,7 @@ const AirDrop: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-32 items-center sm:mb-16'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 items-center sm:mb-10'>
         <div>
           <Image src={AirdropImage} alt='Airdrop Image' />
         </div>
@@ -32,9 +32,7 @@ const AirDrop: NextPage = () => {
           <span className='opacity-65'>Ora has allocated up to</span><span className='time-token-notes about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to users.</span>
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 items-center airdrop-split sm:mb-16'>
-      </div>
-      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-16 airdrop-free'>
+      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free'>
         How to get this<span className='about-text-blue-light italic'>&nbsp;FREE&nbsp;</span>airdrop?
       </div>
       <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 airdrop-free-description'>
