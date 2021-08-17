@@ -53,7 +53,7 @@ const Roadmap: NextPage = () => {
             </div>
             <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 text-right'>
               <span className='opacity-50'>
-                Marketing for Initial Token Offering (ITO) begins
+                Marketing for Initial Token Offering ITO begins
               </span>
             </div>
             <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 sm:pb-10 text-right'>
