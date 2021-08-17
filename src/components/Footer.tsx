@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import Logo2 from '../assets/svg/logo2.svg';
 import Reddit from '../assets/png/reddit.png';
@@ -58,14 +57,14 @@ export default function Footer({ height } : FooterProps) {
       </div>
       <div className='flex flex-col text-white about-terms justify-center items-center sm:mb-10'>
         <div className='flex'>
-          <Link href="/terms">
+          <a href="/terms" target='_blank' rel='noreferrer'>
             <div className='flex items-center cursor-pointer'>
               <div className='mr-1'>
                 Terms of Services
               </div>
               <WhitePaperSvg width={16} height={16} fill={"#ffffff"} />
             </div>
-          </Link>
+          </a>
           <div className='border-r border-white sm:mx-3' />
           <div className='flex items-center'>
             <div className='mr-1'>
