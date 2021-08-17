@@ -396,7 +396,7 @@ const Team: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header />
-      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Team<span className='about-text-blue'>&nbsp;Memebers</span>
@@ -404,7 +404,7 @@ const Team: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
+      <div className='flex sm:mt-10 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar01'} name={'Ted Colivas'} position={'CEO'} description={team[0]}/>
         </div>

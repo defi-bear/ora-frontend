@@ -14,7 +14,7 @@ const Roadmap: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-16'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Road<span className='about-text-blue'>map</span>

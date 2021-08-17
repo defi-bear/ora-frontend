@@ -18,7 +18,7 @@ const TimeToken: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             TIME<span className='about-text-blue'>&nbsp;Token</span>
@@ -26,7 +26,7 @@ const TimeToken: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-32 justify-between sm:mb-16'>
+      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 justify-between sm:mb-16'>
         <div className='flex-1'>
           <Image src={TimeTokenImage} alt='Time Token Image' />
         </div>
@@ -114,7 +114,7 @@ const TimeToken: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-32 sm:mb-32 time-token-notes'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 sm:mb-32 time-token-notes'>
         <div className='about-text-blue'>
           Additional notes:
         </div>
