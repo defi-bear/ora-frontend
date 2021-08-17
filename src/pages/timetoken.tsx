@@ -18,7 +18,7 @@ const TimeToken: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
+      <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             TIME<span className='about-text-blue'>&nbsp;Token</span>
@@ -27,12 +27,12 @@ const TimeToken: NextPage = () => {
         </div>
       </div>
       <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 justify-between sm:mb-16'>
-        <div className='flex-1'>
+        <div className='flex-1 flex items-center'>
           <Image src={TimeTokenImage} alt='Time Token Image' />
         </div>
-        <div className='flex flex-col flex-1 time-token-dashed justify-center items-center md:ml-6'>
+        <div className='flex flex-col flex-1 time-token-dashed justify-center items-center 2xl:ml-56'>
           <Image src={LogoX} alt='LogoX Image' />
-          <div className='flex flex-col time-token-percent'>
+          <div className='flex flex-col time-token-percent sm:p-10'>
             <div>
               <span className='opacity-65'>
                 Token:&nbsp;
