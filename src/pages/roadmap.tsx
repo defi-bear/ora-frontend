@@ -78,7 +78,10 @@ const Roadmap: NextPage = () => {
                 Airdrop provided to early registrations
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
-                Users can begin mining TIME with their data Staking launches
+                Users can begin mining TIME with their data
+              </div>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
+                Staking launches
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-10'>
                 Expand accessibility to TIME via exchanges
@@ -104,7 +107,12 @@ const Roadmap: NextPage = () => {
             </div>
             <div className='flex sm:pl-16 sm:pt-5'>
               <span className='opacity-50'>
-                Users can begin mining TIME with their data Staking launches
+                Users can begin mining TIME with their data
+              </span>
+            </div>
+            <div className='flex sm:pl-16 sm:pt-5'>
+              <span className='opacity-50'>
+                Staking launches
               </span>
             </div>
             <div className='flex sm:pl-16 sm:pt-5 sm:pb-10'>
