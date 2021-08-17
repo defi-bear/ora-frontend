@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo2 from '../assets/png/logo2.png';
+import Logo2 from '../assets/svg/logo2.svg';
 import Reddit from '../assets/png/reddit.png';
 import Twitter from '../assets/png/twitter.png';
 import Telegram from '../assets/png/telegram.png';

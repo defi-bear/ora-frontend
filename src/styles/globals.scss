@@ -591,3 +591,19 @@ a {
   line-height: 166%;
   /* or 41px */
 }
+
+.about-animation {
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about-animation {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.about-animation-transition {
+    opacity: 1;
+    transform: none;
+}

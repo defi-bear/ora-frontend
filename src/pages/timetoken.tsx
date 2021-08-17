@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import LogoX from '../assets/png/logox.png';
+import LogoX from '../assets/svg/logox.svg';
 import TimeTokenImage from '../assets/png/03.png';
 import WhitePaperSvg from '../components/WhitePaperSvg';
 

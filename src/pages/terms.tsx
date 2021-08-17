@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import LogoS from '../assets/png/logos.png';
+import LogoS from '../assets/svg/logos.svg';
 
 const Terms: NextPage = () => {
   return (

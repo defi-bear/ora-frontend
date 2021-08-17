@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import RegButton from './RegButton';
 
-import Logo from '../assets/png/logo.png';
+import Logo from '../assets/svg/logo.svg';
 import WhitePaperSvg from './WhitePaperSvg';
 
 interface HeaderProps {

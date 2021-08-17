@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import { ArrowRightIcon } from "@heroicons/react/outline";
@@ -17,6 +17,7 @@ import WhitePaperSvg from '../components/WhitePaperSvg';
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
   const [ind, setInd] = useState(0);
+  const rootRef = React.createRef();
 
   useEffect(() => {
     console.log(ind);
@@ -40,8 +41,27 @@ const Home: NextPage = () => {
     };
   }, []);
 
+  // const square = document.querySelector('.about-animation');
+  // square?.classList.remove('about-animation-transition');
+
+  // // Create the observer, same as before:
+  // const observer = new IntersectionObserver(entries => {
+  //   entries.forEach(entry => {
+  //     if (entry.isIntersecting) {
+  //       square?.classList.add('about-animation-transition');
+  //       return;
+  //     }
+
+  //     square?.classList.remove('about-animation-transition');
+  //   });
+  // });
+
+  // const wrapper = document.querySelector('.about-wrapper');
+  // if (wrapper)
+  //   observer.observe(wrapper);
+
   return (
-    <div className='flex flex-col overflow-hidden'>
+    <div className='flex flex-col overflow-hidden about-wrapper' ref={rootRef}>
       <Head>
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
@@ -116,7 +136,7 @@ const Home: NextPage = () => {
           Ora’s ecosystem is powered by a utility token called TIME.
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28 about-animation about-animation-transition'>
         <div className='about-ora-ecosystem-title'>
           TIME powers the Ora ecosystem.
         </div>
