@@ -174,7 +174,7 @@ const Home: NextPage = () => {
             Collected metadata is made available to data consumers.  The privacy of the user’s name and the exact location is protected.
           </li>
           <li>
-            Refer as many people as possible to maximize TIME rewards earning from friends and family’s data!
+            Refer as many people as you like to earn ongoing TIME rewards from friends and family’s data!
           </li>
         </ul>
       </div>
