@@ -138,7 +138,7 @@ const Home: NextPage = () => {
         <div className='about-ora-description-title about-text-blue sm:mt-10'>
           Registration
         </div>
-        <ul className='list-disc about-ora-description-content list-inside sm:mt-2 sm:ml-3'>
+        <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>
           <li>
             Download and install the FREE Ora app on your mobile phone (Android and iOS available).
           </li>
@@ -160,7 +160,7 @@ const Home: NextPage = () => {
         <div className='about-ora-description-title about-text-blue'>
           After Registration
         </div>
-        <ul className='list-disc about-ora-description-content list-inside sm:mt-2 sm:ml-3'>
+        <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>
           <li>
             Eligible users will receive a notification that there is a new data request available.
           </li>
