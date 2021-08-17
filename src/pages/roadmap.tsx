@@ -36,27 +36,27 @@ const Roadmap: NextPage = () => {
         </div>
         <div className='flex'>
           <div className='flex flex-col flex-1 roadmap-content relative'>
-            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5'>
+            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 text-right'>
               <span className='opacity-50'>
                 MVP complete
               </span>
             </div>
-            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10'>
+            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 text-right'>
               <span className='opacity-50'>
                 TIME utility token legal opinion completed
               </span>
             </div>
-            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10'>
+            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 text-right'>
               <span className='opacity-50'>
                 Pre-registrations for Ora mobile app
               </span>
             </div>
-            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10'>
+            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 text-right'>
               <span className='opacity-50'>
                 Marketing for Initial Token Offering (ITO) begins
               </span>
             </div>
-            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10 sm:pb-10'>
+            <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 sm:pb-10 text-right'>
               <span className='opacity-50'>
                 TIME launches via (ITO) and begins trading
               </span>
@@ -74,16 +74,16 @@ const Roadmap: NextPage = () => {
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 The mobile app is launches
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 TIME integrated with Ora app running in production
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Airdrop provided to early registrations
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Users can begin mining TIME with their data Staking launches
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10 sm:pb-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-10'>
                 Expand accessibility to TIME via exchanges
               </div>
               <div className='absolute roadmap-content-circle roadmap-content-circle-back-light' />
@@ -100,22 +100,22 @@ const Roadmap: NextPage = () => {
                 The mobile app is launches
               </span>
             </div>
-            <div className='flex sm:pl-16 sm:pt-10'>
+            <div className='flex sm:pl-16 sm:pt-5'>
               <span className='opacity-50'>
                 TIME integrated with Ora app running in production
               </span>
             </div>
-            <div className='flex sm:pl-16 sm:pt-10'>
+            <div className='flex sm:pl-16 sm:pt-5'>
               <span className='opacity-50'>
                 Airdrop provided to early registrations
               </span>
             </div>
-            <div className='flex sm:pl-16 sm:pt-10'>
+            <div className='flex sm:pl-16 sm:pt-5'>
               <span className='opacity-50'>
                 Users can begin mining TIME with their data Staking launches
               </span>
             </div>
-            <div className='flex sm:pl-16 sm:pt-10 sm:pb-10'>
+            <div className='flex sm:pl-16 sm:pt-5 sm:pb-10'>
               <span className='opacity-50'>
                 Expand accessibility to TIME via exchanges
               </span>
@@ -130,27 +130,27 @@ const Roadmap: NextPage = () => {
               </div>
             </div>
             <div className='relative'>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   Data requests ramp-up
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   Referral marketing contests go live
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   Marketing ramps up targeting user growth
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   Data collection and staking rewards accelerate
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10 sm:pb-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-10 text-right'>
                 <span className='opacity-50'>
                   Series A equity financing targeted to accelerate  growth
                 </span>
@@ -169,13 +169,13 @@ const Roadmap: NextPage = () => {
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Revenue generation accelerates
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Buying and burning of TIME derived from Ora revenue
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 Full circle tokenomics take flight
               </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-10 sm:pb-10'>
+              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-10'>
                 Series B equity financing targeted to grow ecosystem, new in app verticals and adoption
               </div>
               <div className='absolute roadmap-content-circle roadmap-content-circle-back-light' />
@@ -190,13 +190,13 @@ const Roadmap: NextPage = () => {
             <div className='flex sm:pl-16 sm:pt-5 opacity-50'>
               Revenue generation accelerates
             </div>
-            <div className='flex sm:pl-16 sm:pt-10 opacity-50'>
+            <div className='flex sm:pl-16 sm:pt-5 opacity-50'>
               Buying and burning of TIME derived from Ora revenue
             </div>
-            <div className='flex sm:pl-16 sm:pt-10 opacity-50'>
+            <div className='flex sm:pl-16 sm:pt-5 opacity-50'>
               Full circle tokenomics take flight
             </div>
-            <div className='flex sm:pl-16 sm:pt-10 sm:pb-10 opacity-50'>
+            <div className='flex sm:pl-16 sm:pt-5 sm:pb-10 opacity-50'>
               Series B equity financing targeted to grow ecosystem, new in app verticals and adoption
             </div>
           </div>
@@ -209,27 +209,27 @@ const Roadmap: NextPage = () => {
               </div>
             </div>
             <div className='relative'>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   New methods for users to earn TIME in the Ora ecosystem
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   TIME begins to be mined via attention and not only data
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   New user experience in app ecosystems become available
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10 text-right'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
                   New in app experiences evolve to enhance user engagement creating more value for users, consumers and Ora
                 </span>
               </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-10 sm:pb-5 text-right'>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-5 text-right'>
                 <span className='opacity-50'>
                   Series C equity financing targeting to accelerate growth and adoption
                 </span>
