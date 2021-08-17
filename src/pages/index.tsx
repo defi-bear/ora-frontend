@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { ArrowRightIcon } from "@heroicons/react/outline";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -192,7 +193,7 @@ const Home: NextPage = () => {
       <div className='flex relative sm:mt-96'>
         <div className='absolute about-footer'>
           <div className='about-preregister text-white lg:mt-16 md:mt-24'>
-            Pre-register below to be one of the lucky individuals to receive the <span className='underline cursor-pointer'>Ora Airdrop!</span>
+            Pre-register below to be one of the lucky individuals to receive the <Link href='/airdrop'><span className='underline cursor-pointer'>Ora Airdrop!</span></Link>
           </div>
           <div className='about-totalsupply text-white'>
             5% of the total TIME supply will be used for an airdrop to early users!
