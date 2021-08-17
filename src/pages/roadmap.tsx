@@ -43,7 +43,7 @@ const Roadmap: NextPage = () => {
             </div>
             <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10'>
               <span className='opacity-50'>
-                Time utility token opinion complete
+                TIME utility token legal opinion completed
               </span>
             </div>
             <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-10'>
