@@ -12,11 +12,11 @@ const Team: NextPage = () => {
     [ // CEO
       {
         desc: 'Serial entrepreneur with 30 years’ experience building, leading and growing companies.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Previously held positions leading Canadian companies including IBM, Canadian Pacific, Platinum Technologies and Ericsson Communications Canada.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founded Parlay Entertainment in 1996, a premier Canadian gaming technology developer listed on Nasdaq OTC under ticker symbol DCEG and later on the TSXV with symbol PEI.',
@@ -38,11 +38,11 @@ const Team: NextPage = () => {
     [ // Chairman
       {
         desc: '30 years of experience consulting for UNFAO, UNCTAD, UNILO, UNESCO, UNEP and UNDP and many other international organizations and governments.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Previously a Professor Emeritus of Economics at McMaster University (Canada), taught economics at Purdue University (USA), was visiting scholar at Cambridge University (UK),  a Fellow for the Institute for Social and Economic Policy at Harvard University (USA) and an Adjunct Professor of Environmental Studies at York University (Canada).',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Served as the Acting Executive Secretary and Undersecretary General of The United Nations Economic and Social Commission for Western Asia.',
@@ -56,11 +56,11 @@ const Team: NextPage = () => {
     [ // CMO
       {
         desc: 'Ex-Deloitte employee, serial entrepreneur and successful sports wagerer with a track record of consistently beating the house.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Driven by a vision to build the world’s first global data network powered by blockchain technology that will deliver instant in app rewards and payments that will allow users to enjoy the financial benefits of their data.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Architected Ora’s strategy and is a crypto and blockchain enthusiast.',
@@ -74,15 +74,15 @@ const Team: NextPage = () => {
     [ // CTO
       {
         desc: 'Systems Architect with over 25 years of experience, specializing in designing and building distributed, scalable systems.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founder & CTO of several start-ups with 3 successful exits; 2 acquired, 1 IPO.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Began his first start-up in 1995 which was acquired by Jana Systems in 1999 and later bought by Siebel for $1.4 Billion.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Senior Systems Architect for online gaming developer IQ Ludorum building secure gaming systems and financial transaction processing systems.',
@@ -100,11 +100,11 @@ const Team: NextPage = () => {
     [ // CFO
       {
         desc: 'Led and managed financial and operational risk for both public and private companies operating in complex regulatory environments for over 18 years.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Previously held CFO roles at Independent Trading Group (ITG), BBS Securities (Virtual Brokers), Wells Fargo Securities Canada and Queensbury Securities.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Co-Founder of Tritum Inc. with significant ownership interests in Bloctane, a Brazilian Digital Asset Exchange and LINQ Inc, a digital asset industry connected liquidity provider into Ethereum Layer 2 scaled decentralized exchanges.',
@@ -118,15 +118,15 @@ const Team: NextPage = () => {
     [ // VP Business Development
       {
         desc: 'Founder and President of the Extreme Health Club Chain for 10 years, at its peak grew to $100M in revenues and employed 1400 employees, which was sold to Falcon Head Capital',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founder and President of Boston Capital, a commercial real estate company with $100M in transactions.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founder of Rocketfrac Services that provides fracking services to the oil & gas industry using solid rocket propellant instead of water.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founder of HyperBlock, a leader in blockchain security services listed on the CSE stock exchange under ticker HYPR.',
@@ -144,11 +144,11 @@ const Team: NextPage = () => {
     [ // VP Operations
       {
         desc: 'Co-founded Imperial Green Energy in 2017, a successful and growing Solar Energy Brokerage and Project Management firm in Ontario, Canada where he personally generated just under 7 figures in revenue.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'In his current role at Ora, Dylan leads the management and growth of Ora’s business operations and infrastructure operations.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Graduated from Queens University with an Honours BA in Applied Economics.',
@@ -158,11 +158,11 @@ const Team: NextPage = () => {
     [ // Design
       {
         desc: 'Award winning web and graphics designer with 12 years experience designing websites and marketing collateral for numerus successful start-up ventures.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Donald recently did the design work for well-known crypto start-ups Band Protocol and Badger Dao who each saw success reaching 9 figure market caps for their respective tokens.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Fluent in Adobe Photoshop, Adobe Illustrator and other industry standard graphic design tools, motion video editing and video production tools.',
@@ -176,11 +176,11 @@ const Team: NextPage = () => {
     [ // Developer
       {
         desc: 'Senior Full Stack and Blockchain Developer with considerable experience at all stages of the development life-cycle leading to the creation and deployment of dynamic web and mobile projects.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Blockchain developer at Tokenizer where he created TMP token on ERC-20 blockchain, implemented DAO (Decentralized Autonomous Organization) and dYdX protocol, a leading decentralized exchange that supports perpetual, margin trading and spot trading.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Blockchain developer with Zoracles where he developed technology to improved Zora credit scores using Etherscan and Horizon APIs.',
@@ -198,11 +198,11 @@ const Team: NextPage = () => {
     [ // AI & Advanced Analytics
       {
         desc: 'Ph.D. in computer science (computational finance stream), Masters in Quantitative Finance from the University of Waterloo and a Master in Mathematics and Statistics from Concordia University.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Led AI and Advanced Analytic Initiatives team within the Professional Practices Area at the Bank of Montreal.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Led the Quantitative and Data Analytics Team for the Liquidity and Funding Management project for Corporate Treasury at Bank of Montreal and launched fully integrated liquidity risk optimization platform as well as leading multiple high-impact quantitative modeling exercises for calculating stressed liquidity risk positions for the enterprise.',
@@ -220,11 +220,11 @@ const Team: NextPage = () => {
     [ // Data Scientist
       {
         desc: 'Specialist in algorithm design and data analytics with statistical and machine learning approaches in aerodynamics, capital market, oil production, web traffic, customer networks and generating insights that touch billions of users.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Senior Data Scientist at a top 5 Canadian insurance firm where he specialized in AI, robotics and cloud infrastructures and led the development of anti-money laundering (AML) systems, systems for alleviating policy risks and special projects to optimize businesses channels.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Machine Learning Specialist at Royal Dutch Shell where he developed reinforcement learning algorithms to identify optimal stratigraphic wellbore locations based on field and simulation data.',
@@ -242,11 +242,11 @@ const Team: NextPage = () => {
     [ // Crypto Law
       {
         desc: 'High profile Canadian securities lawyer and partner at McLeod Law in Calgary, Canada where he services various businesses and entrepreneurs, mainly in the cryptocurrency and private lending industries.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Has been advising companies in the cryptocurrency space since 2013, making him one of the first Canadian lawyers to act for cryptocurrency companies in Canada. Led efforts at McLeod Law to accept bitcoin as payment for legal services in 2013 making McLeod Law the first full-service law firm in Canada to accept bitcoin.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Matthew’s clients in the cryptocurrency and blockchain space include cryptocurrency exchange platforms, cryptocurrency wallet developers, issuers of digital currency (including stablecoins and NFTs), cryptocurrency miners and cryptocurrency investment funds.',
@@ -264,11 +264,11 @@ const Team: NextPage = () => {
     [ // Crypto and Gaming
       {
         desc: 'Serial entrepreneur passionate about betting, gambling, technology, internet payment systems and an early crypto adopter / advocate. systems and an early crypto adopter / advocate.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Designed and built a number of industrial strength technology systems with over 25 years experience operating online gambling sites and launched the world\'s first online gaming site ‘Plus Lotto’ in 1995.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'CEO of FUN Token, an ERC-20 gaming token designed to leverage latest crypto technology for the online gaming space. Fun launched as an ICO in June 2017 and is listed on many major exchanges such as Binance and Bitfinex. FUN has a market cap of around $200M and is ranked 150th largest coin on CoinMarketCap.',
@@ -290,15 +290,15 @@ const Team: NextPage = () => {
     [ // Blockchain
       {
         desc: 'Dutch serial entrepreneur owning and running multiple companies as CEO / CTO over the past 25 years and started investing in Bitcoin in 2013.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Served as interim CTO / CIO for several companies, including Triple I Sourcing Group (Netherlands) and Yme Kuiper B.V.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Founded Munt Computer Shop, an online computer store that featured one of the world’s first smart contract shopping system',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Launched MunInternet Networks in 2004 in North America, Asia and in the Netherlands which was eventually sold to Denit, one of the largest web hosting companies in Europe. ',
@@ -316,11 +316,11 @@ const Team: NextPage = () => {
     [ // Regulatory / Governance
       {
         desc: '35 years public service experience with the Government of Ontario.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Served as the Assistant Deputy Minister for the Ontario Casino Project with the Ontario Ministry of Consumer & Commercial Relations where he developed and implemented legislation, regulations and policies necessary to establish the casino industry in Ontario.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Served as the first CEO and President of the Ontario Casino Corporation responsible for the development and operations of the new commercial casino industry in Ontario.',
@@ -342,15 +342,15 @@ const Team: NextPage = () => {
     [ // M & A
       {
         desc: 'Brings over 10 years experience in audit, accounting, taxation and valuation with top accounting firms in Toronto such as KPMG and Collins Barrow (acquired by RSM).',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Earned his CPA, CA designation in Ontario',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Strong internal processes knowledge and experience in developing start-ups and early-stage companies.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Will be leveraged to help Ora identify and assess strategic M&A opportunities, valuations and mitigating transaction risks. ',
@@ -368,11 +368,11 @@ const Team: NextPage = () => {
     [ // Crypto Social Media Influencer
       {
         desc: 'Well-known social media crypto influencer that will lead Ora’s social media presence.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'An anonymous figure, has amassed 150,000 followers on his Twitter account @cryptunez making him one of the world’s leading and most trusted crypto influencers.',
-        abstr: true
+        abstr: false
       },
       {
         desc: 'Tunez has established himself as a proficient trader with a venerable personality that keeps followers engaged and wanting more.',
@@ -405,7 +405,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar01'} name={'Ted Colivas'} position={'CEO'} description={team[0]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -413,7 +413,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar03'} name={'Adam Berze'} position={'Founder | President & CMO'} description={team[2]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -421,7 +421,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar05'} name={'Jim Andriopoulos CPA, CA, MBA'} position={'CFO'} description={team[4]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -429,7 +429,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar07'} name={'Dylan Payne'} position={'VP Operations'} description={team[6]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -450,7 +450,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar10'} name={'Dr. Amir Memar Ph.D. - Advisor'} position={'AI & Advanced Analytics'} description={team[9]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -458,7 +458,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar12'} name={'Matthew Burgoyne - Advisor'} position={'Canadian Securities and Crypto Law'} description={team[11]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -466,7 +466,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar14'} name={'Jaap Harmsma - Advisor'} position={'Blockchain'} description={team[13]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>
@@ -474,7 +474,7 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40'>
-        <div className='flex-1 team-member-profilecard sm:mr-32'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>
         </div>
         <div className='flex-1 team-member-profilecard'>

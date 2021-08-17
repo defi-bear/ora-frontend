@@ -18,14 +18,31 @@ export default function ProfileCard({ avatar, name, position, description } : Pr
   return (
     <div className='flex flex-col'>
       <div className='flex flex-col justify-center items-center team-member-title sm:mb-3'>
-        <Image src={avatar ? require(`../assets/png/${avatar}.png`) : ""} width={225} height={225} alt={avatar} className='rounded-full' />
+        <div className='flex justify-center cursor-pointer' onClick={(e) => {
+            if (loadmore)
+              setLoadmore(false);
+            else
+              setLoadmore(true);
+          }}>
+          <Image src={avatar ? require(`../assets/png/${avatar}.png`) : ""} width={225} height={225} alt={avatar} className='rounded-full' />
+        </div>
         {name && (
-          <div className='sm:mt-3'>
+          <div className='flex justify-center cursor-pointer sm:mt-3' onClick={(e) => {
+            if (loadmore)
+              setLoadmore(false);
+            else
+              setLoadmore(true);
+          }}>
             { name }
           </div>
         )}
         {position && (
-          <div>
+          <div className='flex justify-center cursor-pointer' onClick={(e) => {
+            if (loadmore)
+              setLoadmore(false);
+            else
+              setLoadmore(true);
+          }}>
             { position }
           </div>
         )}
@@ -45,18 +62,25 @@ export default function ProfileCard({ avatar, name, position, description } : Pr
           </div>
         )}
       </div>
-      <div className='team-member-load-more flex justify-center cursor-pointer sm:mt-10' onClick={(e) => {
-        if (loadmore)
-          setLoadmore(false);
-        else
-          setLoadmore(true);
-      }}>
         {!loadmore ? (
-            `Load more...`
+          <div className='team-member-load-more flex justify-center cursor-pointer' onClick={(e) => {
+            if (loadmore)
+              setLoadmore(false);
+            else
+              setLoadmore(true);
+          }}>
+            Bio
+          </div>
         ) : (
-          <LoadMoreSvg width={44} height={44} fill={"#4AA3E0"} />
+          <div className='team-member-load-more flex justify-center cursor-pointer sm:mt-10' onClick={(e) => {
+            if (loadmore)
+              setLoadmore(false);
+            else
+              setLoadmore(true);
+          }}>
+            <LoadMoreSvg width={44} height={44} fill={"#4AA3E0"} />
+          </div>
         )}
-      </div>
     </div>
   );
 }
