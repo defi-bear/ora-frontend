@@ -104,7 +104,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className='about-ora-description-subtitle about-text-blue sm:mt-8'>
-          Ora will offers online consumers: 
+          Ora offers online consumers: 
         </div>
         <div className='about-ora-description-subtitle sm:mt-3 flex items-center'>
           <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
