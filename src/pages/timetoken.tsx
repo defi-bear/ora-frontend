@@ -40,14 +40,16 @@ const TimeToken: NextPage = () => {
               <span className='about-text-blue'>
                 TIME
               </span>
+            </div>
+            <div>
               <span className='opacity-65'>
-                &nbsp;an&nbsp;
+                Protocol:&nbsp;
               </span>
               <span className='about-text-blue'>
-                ERC20
+                Ethereum's&nbsp;
               </span>
-              <span className='opacity-65'>
-                &nbsp;token
+              <span className='about-text-blue'>
+                ERC-20
               </span>
             </div>
             <div>
