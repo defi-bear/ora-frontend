@@ -119,7 +119,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className='about-ora-description-footer about-text-blue sm:mt-12'>
-          It is no secret that human’s most valuable commodity for humans is time!  It is no coincidence that
+          It is no secret that the most valuable commodity for humans is time! It is no coincidence that
           Ora’s ecosystem is powered by a utility token called TIME.
         </div>
       </div>
