@@ -178,7 +178,7 @@ const Roadmap: NextPage = () => {
                 TIME deflation begins, % of revenue will be used to buy and burn TIME
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
-                Full circle tokenomics take flight
+                Full circle tokenomics takes flight
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5 sm:pb-10'>
                 Series B equity financing targeted to grow ecosystem, new in app verticals and adoption
@@ -196,10 +196,10 @@ const Roadmap: NextPage = () => {
               Revenue generation accelerates
             </div>
             <div className='flex sm:pl-16 sm:pt-5 opacity-50'>
-              Buying and burning of TIME derived from Ora revenue
+              TIME deflation begins, % of revenue will be used to buy and burn TIME
             </div>
             <div className='flex sm:pl-16 sm:pt-5 opacity-50'>
-              Full circle tokenomics take flight
+              Full circle tokenomics takes flight
             </div>
             <div className='flex sm:pl-16 sm:pt-5 sm:pb-10 opacity-50'>
               Series B equity financing targeted to grow ecosystem, new in app verticals and adoption
