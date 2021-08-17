@@ -23,7 +23,7 @@ const Faq: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mt-10 sm:mb-10'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mt-10'>
         <div className='flex'>
           <div className='sm:mr-3'>
             1.
@@ -181,12 +181,14 @@ const Faq: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className='flex airdrop-split sm:mt-10 sm:mb-20' />
+      <div className='flex airdrop-split sm:mb-10' />
       <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-welcome sm:mb-10'>
         Ora welcomes further questions and discussion
       </div>
       <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 text-white items-center'>
-        <RegButton width={224} height={36} title={'Join Our Community'} />
+        <a href='https://t.me/joinchat/Sd0c9GeJoNdiNzZh' target='_blank' rel='noreferrer'>
+          <RegButton width={224} height={36} title={'Join Our Community'} />
+        </a>
       </div>
       <Footer />
     </div>
