@@ -118,7 +118,7 @@ const TimeToken: NextPage = () => {
         <div className='about-text-blue'>
           Additional notes:
         </div>
-        <ul className='list-disc list-inside'>
+        <ul className='list-disc list-outside sm:ml-6'>
           <li>
             <span className='opacity-65 relative'>
               The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the
