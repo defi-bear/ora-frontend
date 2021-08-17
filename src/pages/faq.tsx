@@ -14,7 +14,7 @@ const Faq: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={123} />
+      <Header />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
@@ -188,7 +188,7 @@ const Faq: NextPage = () => {
       <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 text-white items-center'>
         <RegButton width={224} height={36} title={'Join Our Community'} />
       </div>
-      <Footer height={270} />
+      <Footer />
     </div>
   )
 }

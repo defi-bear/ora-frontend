@@ -11,7 +11,7 @@ interface HeaderProps {
   height: number
 };
 
-export default function Header({ height } : HeaderProps) {
+export default function Header({ height=0 } : HeaderProps) {
   function getStyle() {
     let styles = {};
     if (height) styles = Object.assign(styles, { height: height });
@@ -20,7 +20,7 @@ export default function Header({ height } : HeaderProps) {
   return (
     <div className='z-50'>
       <div
-        className='flex items-center text-white header-back header-kanit 2xl:px-60 xl:px-36 lg:px-16 md:px-2 sm:justify-between'
+        className='flex items-center text-white header-back header-kanit 2xl:px-60 xl:px-36 lg:px-16 md:px-2 sm:justify-between sm:py-5'
         style={getStyle()}
       >
         <a href='/' rel='noreferrer'>

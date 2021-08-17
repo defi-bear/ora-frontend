@@ -11,18 +11,15 @@ interface FooterProps {
   height: number
 };
 
-export default function Footer({ height } : FooterProps) {
+export default function Footer({ height=0 } : FooterProps) {
   function getStyle() {
     let styles = {};
     if (height) styles = Object.assign(styles, { height: height });
     return styles;
   }
   return (
-    <div className='z-50 header-back header-kanit'>
-      <div
-        className='flex items-center text-white 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between'
-        style={getStyle()}
-      >
+    <div className='z-50 header-back header-kanit' style={getStyle()}>
+      <div className='flex items-center text-white 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between sm:pt-5'>
         <a href='/' rel='noreferrer'>
           <Image src={Logo2} alt='Logo2' />
         </a>
@@ -57,7 +54,7 @@ export default function Footer({ height } : FooterProps) {
           </div>
         </div>
       </div>
-      <div className='flex flex-col text-white about-terms justify-center items-center sm:mb-10'>
+      <div className='flex flex-col text-white about-terms justify-center items-center sm:pb-5'>
         <div className='flex'>
           <a href="/terms" target='_blank' rel='noreferrer'>
             <div className='flex items-center cursor-pointer'>

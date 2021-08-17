@@ -13,7 +13,7 @@ const Roadmap: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={123} />
+      <Header />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-16'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
@@ -240,7 +240,7 @@ const Roadmap: NextPage = () => {
           <div className='flex-1' />
         </div>
       </div>
-      <Footer height={270} />
+      <Footer />
     </div>
   )
 }

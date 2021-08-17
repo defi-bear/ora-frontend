@@ -395,7 +395,7 @@ const Team: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={123} />
+      <Header />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
@@ -481,7 +481,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar17'} name={'Tunez'} position={'Crypto Social Media Influencer and Marketing'} description={team[16]}/>
         </div>
       </div>
-      <Footer height={270} />
+      <Footer />
     </div>
   )
 }
