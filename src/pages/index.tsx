@@ -60,7 +60,7 @@ const Home: NextPage = () => {
       <Header height={123} />
       <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex flex-col flex-1 sm:mt-28'>
-          <div className='about-headline-roboto opacity-80'>
+          <div className='about-headline-roboto opacity-80 about-text-blue'>
             The { piece } of Data
           </div>
           <div className='about-subline-roboto opacity-80 sm:mt-5'>
