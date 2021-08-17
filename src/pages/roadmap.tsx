@@ -226,11 +226,6 @@ const Roadmap: NextPage = () => {
               </div>
               <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
-                  New user experience in app ecosystems become available
-                </span>
-              </div>
-              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
-                <span className='opacity-50'>
                   New in app experiences evolve to enhance user engagement creating more value for users, consumers and Ora
                 </span>
               </div>
