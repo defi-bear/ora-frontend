@@ -195,7 +195,7 @@ const Home: NextPage = () => {
             Pre-register below to be one of the lucky individuals to receive the <span className='underline cursor-pointer'>Ora Airdrop!</span>
           </div>
           <div className='about-totalsupply text-white'>
-            Ora is using 5% of the total supply for an airdrop to early users!
+            5% of the total TIME supply will be used for an airdrop to early users!
           </div>
           <div className='flex justify-center items-center sm:mt-6'>
             <input type='text' className='about-preregister-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
