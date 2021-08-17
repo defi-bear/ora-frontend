@@ -137,6 +137,11 @@ const Roadmap: NextPage = () => {
               </div>
               <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
                 <span className='opacity-50'>
+                  Customer facing portal completed and generating revenue
+                </span>
+              </div>
+              <div className='flex justify-end roadmap-content-border-right-light sm:pr-16 sm:pt-5 text-right'>
+                <span className='opacity-50'>
                   Referral marketing contests go live
                 </span>
               </div>
