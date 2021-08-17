@@ -592,18 +592,10 @@ a {
   /* or 41px */
 }
 
-.about-animation {
+[data-aos='about-animation'] {
   opacity: 0;
-  transform: scale(1.2);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .about-animation {
-    transition: opacity 1.5s ease, transform 1.5s ease;
-  }
-}
-
-.about-animation-transition {
+  transition-property: transform, opacity;
+  &.aos-animate {
     opacity: 1;
-    transform: none;
+  }
 }

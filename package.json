@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.3",
+    "aos": "^2.3.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "lint-staged": "^11.1.2",

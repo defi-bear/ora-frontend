@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import { ArrowRightIcon } from "@heroicons/react/outline";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -17,10 +19,8 @@ import WhitePaperSvg from '../components/WhitePaperSvg';
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
   const [ind, setInd] = useState(0);
-  const rootRef = React.createRef();
 
   useEffect(() => {
-    console.log(ind);
     if (ind%3 === 0) {
       setPiece('Future');
     } else if (ind%3 === 1) {
@@ -34,6 +34,11 @@ const Home: NextPage = () => {
     const interval = setInterval(() => {
       setInd(prevInd => prevInd + 1);
     }, 5000);
+
+    AOS.init({
+      // initialise with other settings
+      duration : 1200
+    });
   
     return () => {
       console.log(`clearing interval`);
@@ -41,27 +46,8 @@ const Home: NextPage = () => {
     };
   }, []);
 
-  // const square = document.querySelector('.about-animation');
-  // square?.classList.remove('about-animation-transition');
-
-  // // Create the observer, same as before:
-  // const observer = new IntersectionObserver(entries => {
-  //   entries.forEach(entry => {
-  //     if (entry.isIntersecting) {
-  //       square?.classList.add('about-animation-transition');
-  //       return;
-  //     }
-
-  //     square?.classList.remove('about-animation-transition');
-  //   });
-  // });
-
-  // const wrapper = document.querySelector('.about-wrapper');
-  // if (wrapper)
-  //   observer.observe(wrapper);
-
   return (
-    <div className='flex flex-col overflow-hidden about-wrapper' ref={rootRef}>
+    <div className='flex flex-col overflow-hidden'>
       <Head>
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
@@ -98,7 +84,7 @@ const Home: NextPage = () => {
           <Image src={AboutImage2} alt='About Image2' layout='intrinsic' />
         </div>
       </div>
-      <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28'>
+      <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28' data-aos='about-animation'>
         <div className='about-ora-description-title about-text-blue'>
           Ora is on a mission to re-invent and modernize the data industry
         </div>
@@ -137,7 +123,7 @@ const Home: NextPage = () => {
           Ora’s ecosystem is powered by a utility token called TIME.
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28 about-animation about-animation-transition'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28' data-aos='about-animation'>
         <div className='about-ora-ecosystem-title'>
           TIME powers the Ora ecosystem.
         </div>
@@ -145,7 +131,7 @@ const Home: NextPage = () => {
           <Image src={EcoSystemImage} alt='EcoSystem Image' />
         </div>
       </div>
-      <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8'>
+      <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8' data-aos='about-animation'>
         <div className='about-how-it-works-title flex justify-center'>
           How It Works
         </div>
