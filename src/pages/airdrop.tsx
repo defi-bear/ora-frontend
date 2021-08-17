@@ -63,7 +63,7 @@ const AirDrop: NextPage = () => {
             Step 4: Do nothing, sit back and relax and see the tokens appear in your in-app wallet.
           </div>
           <div className='opacity-65'>
-            Step 5: Welcome to the Time Tribe, refer friends to start earning even more!
+            Step 5: Welcome to the Time Tribe&trade;, refer friends to start earning even more!
           </div>
         </div>
       </div>
