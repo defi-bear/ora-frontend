@@ -128,7 +128,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28' data-aos='about-animation'>
-        <div className='about-ora-ecosystem-title'>
+        <div className='about-ora-ecosystem-title about-text-blue'>
           TIME powers the Ora ecosystem.
         </div>
         <div className='sm:mt-20 sm:mb-32'>
