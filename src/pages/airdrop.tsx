@@ -60,7 +60,7 @@ const AirDrop: NextPage = () => {
             Step 3: Register for FREE when the app goes live.
           </div>
           <div className='opacity-65'>
-            Step 4: Do nothing, sit back and relax and see the tokens appear in your in-app wallet at the end of the month.
+            Step 4: Do nothing, sit back and relax and see the tokens appear in your in-app wallet.
           </div>
           <div className='opacity-65'>
             Step 5: Welcome to the Time Tribe (#TimeTribe), refer friends to start earning even more!
