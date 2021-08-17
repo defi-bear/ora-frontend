@@ -168,7 +168,7 @@ const Home: NextPage = () => {
             Click a few multiple choice answers in less than 30 seconds and receive TIME for every answer provided.
           </li>
           <li>
-            Receive generous staking rewards and grow your TIME by staking on chain (see whitepaper for details).
+            Grow your TIME by staking on chain to receive generous staking rewards (see whitepaper for details).
           </li>
           <li>
             Collected metadata is made available to data consumers.  The privacy of the user’s name and the exact location is protected.
