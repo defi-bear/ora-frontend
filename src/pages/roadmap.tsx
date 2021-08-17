@@ -68,7 +68,7 @@ const Roadmap: NextPage = () => {
         <div className='flex'>
           <div className='flex flex-col flex-1 roadmap-content text-white'>
             <div className='flex roadmap-content-border-right sm:pr-16'>
-              2022 Q1 – 2021 Q2
+              2022 Q1 – 2022 Q2
             </div>
             <div className='relative'>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
@@ -89,7 +89,7 @@ const Roadmap: NextPage = () => {
           <div className='flex flex-col flex-1 roadmap-content'>
             <div className='flex-1 roadmap-title flex'>
               <div className='roadmap-title-border-bottom-light sm:pl-16'>
-                2022 Q1 – 2021 Q2
+                2022 Q1 – 2022 Q2
               </div>
             </div>
             <div className='flex sm:pl-16 sm:pt-5'>
@@ -118,7 +118,7 @@ const Roadmap: NextPage = () => {
           <div className='flex flex-col flex-1 roadmap-content'>
             <div className='flex-1 roadmap-title roadmap-content-border-right-light flex justify-end'>
               <div className='roadmap-title-border-bottom-light sm:pr-16 flex justify-end'>
-                2022 Q3 – 2021 Q4
+                2022 Q3 – 2022 Q4
               </div>
             </div>
             <div className='relative'>
