@@ -20,6 +20,7 @@ import TickSvg from '../components/TickSvg';
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
   const [ind, setInd] = useState(0);
+  let emailInput : any = null;
 
   useEffect(() => {
     if (ind%3 === 0) {
@@ -40,6 +41,8 @@ const Home: NextPage = () => {
       // initialise with other settings
       duration : 1200
     });
+
+    emailInput.focus();
   
     return () => {
       console.log(`clearing interval`);
@@ -67,7 +70,7 @@ const Home: NextPage = () => {
             Register below for the app launch, initial token offering and be eligible for early registration to receive our Airdrop! 
           </div>
           <div className='flex items-center sm:mt-6'>
-            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
+            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} ref={(text) => { emailInput = text; }} />
             <div className='sm:ml-3 about-text-blue-light cursor-pointer'>
               <ArrowRightIcon width={26} height={26} />
             </div>

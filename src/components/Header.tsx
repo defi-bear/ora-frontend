@@ -59,7 +59,9 @@ export default function Header({ height=0 } : HeaderProps) {
             FAQ
           </div>
         </Link>
-        <RegButton width={153} height={36} title={'Registration'} />
+        <a href='/' rel='noreferrer'>
+          <RegButton width={153} height={36} title={'Registration'} />
+        </a>
       </div>
     </div>
   );
