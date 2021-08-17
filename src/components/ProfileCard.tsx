@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 
 import { ProfileDesc } from '../constants/types';
@@ -16,7 +16,7 @@ export default function ProfileCard({ avatar, name, position, description } : Pr
   const [loadmore, setLoadmore] = useState(false);
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col profile-card'>
       <div className='flex flex-col justify-center items-center team-member-title sm:mb-3'>
         <div className='flex justify-center cursor-pointer' onClick={(e) => {
             if (loadmore)

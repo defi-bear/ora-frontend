@@ -603,3 +603,9 @@ a {
 .airdrop-ml-15 {
   margin-left: 3.75rem;
 }
+
+.profile-card{  
+  @media screen and (min-width: 1536px) {
+    min-width: 600px;
+  }
+}
