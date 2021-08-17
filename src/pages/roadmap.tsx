@@ -72,9 +72,6 @@ const Roadmap: NextPage = () => {
             </div>
             <div className='relative'>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
-                The mobile app is launches
-              </div>
-              <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
                 TIME integrated with Ora app running in production
               </div>
               <div className='flex roadmap-content-border-right-light sm:pr-16 sm:pt-5'>
@@ -94,11 +91,6 @@ const Roadmap: NextPage = () => {
               <div className='roadmap-title-border-bottom-light sm:pl-16'>
                 2022 Q1 – 2021 Q2
               </div>
-            </div>
-            <div className='flex sm:pl-16 sm:pt-5'>
-              <span className='opacity-50'>
-                The mobile app is launches
-              </span>
             </div>
             <div className='flex sm:pl-16 sm:pt-5'>
               <span className='opacity-50'>
