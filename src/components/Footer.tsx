@@ -23,7 +23,9 @@ export default function Footer({ height } : FooterProps) {
         className='flex items-center text-white 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between'
         style={getStyle()}
       >
-        <Image src={Logo2} alt='Logo2' />
+        <a href='/' rel='noreferrer'>
+          <Image src={Logo2} alt='Logo2' />
+        </a>
         <div className='flex flex-col text-white items-end about-contact-us'>
           <div>
             Contact Us
