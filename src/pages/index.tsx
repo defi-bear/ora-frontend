@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           <div className='about-headline-roboto opacity-80 about-text-blue'>
             The { piece } of Data
           </div>
-          <div className='about-subline-roboto opacity-80 sm:mt-5'>
+          <div className='about-subline-roboto opacity-80 sm:mt-5 about-text-blue'>
             Discover the easiest way to earn lucrative rewards for your data!
           </div>
           <div className='about-subline2-kanit sm:mt-14'>
