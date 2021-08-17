@@ -29,7 +29,7 @@ export default function Footer({ height } : FooterProps) {
             Contact Us
           </div>
           <div className='about-email-info sm:mb-3'>
-            Email : info@ora.app
+            Email : <a href='mailto:info@ora.app' rel='noreferrer'>info@ora.app</a>
           </div>
           <div className='flex flex-col'>
             <div className='sm:mb-2'>
