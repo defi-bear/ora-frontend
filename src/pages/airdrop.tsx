@@ -45,7 +45,7 @@ const AirDrop: NextPage = () => {
           </div>
           <div>
             <span className='opacity-65'>
-              Step 1: Preregister for the app release via email in our </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Registration</span></a><span className='opacity-65'> tab.
+              Step 1: </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Preregister</span></a><span className='opacity-65'> for the app release via email in our </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Registration</span></a><span className='opacity-65'> tab.
             </span>
           </div>
           <div className='opacity-65'>
