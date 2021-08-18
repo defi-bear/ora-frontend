@@ -60,8 +60,19 @@ const Home: NextPage = () => {
       <Header height={0} />
       <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex flex-col flex-1 sm:mt-28'>
+          <div className='flex about-headline-roboto justify-between opacity-80 about-text-blue'>
+            <div>
+              The
+            </div>
+            <div>
+              { piece }
+            </div>
+            <div>
+              of
+            </div>
+          </div>
           <div className='about-headline-roboto opacity-80 about-text-blue'>
-            The { piece } of Data
+            Data
           </div>
           <div className='about-subline-roboto opacity-80 sm:mt-5 about-text-blue'>
             Discover the easiest way to earn lucrative rewards for your data!
