@@ -58,7 +58,7 @@ const Roadmap: NextPage = () => {
             </div>
             <div className='flex justify-end roadmap-content-border-right sm:pr-16 sm:pt-5 sm:pb-10 text-right'>
               <span className='opacity-50'>
-                TIME launches via (ITO) and begins trading
+                TIME launches via ITO and begins trading
               </span>
             </div>
             <div className='absolute roadmap-content-circle roadmap-content-circle-back' />
