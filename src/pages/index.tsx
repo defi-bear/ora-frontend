@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setInd(prevInd => prevInd + 1);
-    }, 5000);
+    }, 2000);
 
     AOS.init({
       // initialise with other settings
