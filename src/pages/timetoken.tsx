@@ -17,7 +17,7 @@ const TimeToken: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header />
+      <Header height={0} />
       <div className='2xl:mx-60 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
@@ -158,7 +158,7 @@ const TimeToken: NextPage = () => {
           </li>
         </ul>
       </div>
-      <Footer />
+      <Footer height={0} />
     </div>
   )
 }

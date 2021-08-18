@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={123} />
+      <Header height={0} />
       <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex flex-col flex-1 sm:mt-28'>
           <div className='about-headline-roboto opacity-80 about-text-blue'>
@@ -209,7 +209,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <Footer height={270} />
+      <Footer height={270} height={0} />
     </div>
   )
 }
