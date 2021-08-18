@@ -209,7 +209,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <Footer height={270} height={0} />
+      <Footer height={0} />
     </div>
   )
 }
