@@ -5,7 +5,7 @@ import Link from 'next/link';
 import RegButton from './RegButton';
 
 import Logo from '../assets/svg/logo.svg';
-import WhitePaperSvg from './WhitePaperSvg';
+// import WhitePaperSvg from './WhitePaperSvg';
 
 interface HeaderProps {
   height: number
@@ -31,7 +31,7 @@ export default function Header({ height=0 } : HeaderProps) {
             <div className='mr-1'>
               Whitepaper
             </div>
-            <WhitePaperSvg width={16} height={16} fill={"#ffffff"} />
+            {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
           </div>
         </a>
         <Link href="/roadmap">
