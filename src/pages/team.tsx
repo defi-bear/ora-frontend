@@ -441,7 +441,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar09'} name={'Shing Ho Tan'} position={'Blockchain & Full Stack Developer'} description={team[8]}/>
         </div>
       </div>
-      <div className='2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Ad<span className='about-text-blue'>visors</span>
