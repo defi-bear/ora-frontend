@@ -45,12 +45,7 @@ const AirDrop: NextPage = () => {
           </div>
           <div>
             <span className='opacity-65'>
-              Step 1: </span><span className='about-text-blue-light'>Preregister</span><span className='opacity-65'> for the app release via email.
-            </span>
-          </div>
-          <div>
-            <span className='opacity-65 airdrop-ml-15'>
-              Get rid of the quotes and registration link, </span><span className='about-text-blue-light'>Preregister</span><span className='opacity-65'> the link to a registration page.
+              Step 1: Preregister for the app release via email in our </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Registration</span></a><span className='opacity-65'> tab.
             </span>
           </div>
           <div className='opacity-65'>
