@@ -78,6 +78,7 @@ const Home: NextPage = () => {
   }, []);
 
   function onRegister() {
+    console.log(gapi.auth2.getAuthInstance().isSignedIn.get());
     const params = {
       // The ID of the spreadsheet to update.
       spreadsheetId: SPREADSHEET_ID, 
