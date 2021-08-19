@@ -18,9 +18,12 @@ import EcoSystemImage from '../assets/png/02.png';
 import TickSvg from '../components/TickSvg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
+import { SPREADSHEET_ID, API_KEY, CLIENT_ID, SCOPE } from '../constants/gsheet';
+
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
   const [ind, setInd] = useState(0);
+  const [email, setEmail] = useState('');
   let emailInput : any = null;
 
   useEffect(() => {
@@ -33,7 +36,12 @@ const Home: NextPage = () => {
     }
   }, [ind]);
 
+  function updateSignInStatus(isSignedIn: any) {
+    console.log(isSignedIn);
+  }
+
   useEffect(() => {
+    console.log('useffect');
     const interval = setInterval(() => {
       setInd(prevInd => prevInd + 1);
     }, 2000);
@@ -45,11 +53,57 @@ const Home: NextPage = () => {
 
     emailInput.focus();
   
+    function initClient() { //provide the authentication credentials you set up in the Google developer console
+      gapi.client.init({
+        'apiKey': API_KEY,
+        'clientId': CLIENT_ID,
+        'scope': SCOPE,
+        'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+      }).then(()=> {
+        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus); //add a function called updateSignInStatus if you want to do something once a user is logged in with Google
+        updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+      });
+    }
+
+    function handleClientLoad() { //initialize the Google API
+      gapi.load('client:auth2', initClient);
+    }
+
+    handleClientLoad();
+  
     return () => {
       console.log(`clearing interval`);
       clearInterval(interval);
     };
   }, []);
+
+  function onRegister() {
+    const params = {
+      // The ID of the spreadsheet to update.
+      spreadsheetId: SPREADSHEET_ID, 
+      // The A1 notation of a range to search for a logical table of data.Values will be appended after the last row of the table.
+      range: 'emoji', //this is the default spreadsheet name, so unless you've changed it, or are submitting to multiple sheets, you can leave this
+      // How the input data should be interpreted.
+      valueInputOption: 'RAW', //RAW = if no conversion or formatting of submitted data is needed. Otherwise USER_ENTERED
+      // How the input data should be inserted.
+      insertDataOption: 'INSERT_ROWS', //Choose OVERWRITE OR INSERT_ROWS
+    };
+
+    const valueRangeBody = {
+      'majorDimension': 'ROWS', //log each entry as a new row (vs column)
+      'values': [email] //convert the object's values to an array
+    };
+
+    console.log(valueRangeBody);
+
+    let request = gapi.client.sheets.spreadsheets.values.append(params, valueRangeBody);
+    request.then(function (response: any) {
+      // TODO: Insert desired response behaviour on submission
+      console.log(response.result);
+    }, function (reason: any) {
+      console.error('error: ' + reason.result.error.message);
+    });
+  }
 
   return (
     <div className='flex flex-col overflow-hidden'>
@@ -57,6 +111,9 @@ const Home: NextPage = () => {
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
+        <script async defer src="https://apis.google.com/js/api.js"
+          onLoad="this.onload=function(){console.log('onload');};"
+          onReadystatechange="if (this.readyState === 'complete') this.onload()"></script>
       </Head>
       <Header height={0} />
       <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
@@ -82,8 +139,8 @@ const Home: NextPage = () => {
             Register below for the app launch, initial token offering and be eligible for early registration to receive our Airdrop! 
           </div>
           <div className='flex items-center sm:mt-6'>
-            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => {}} ref={(text) => { emailInput = text; }} />
-            <div className='sm:ml-3 about-text-blue-light cursor-pointer'>
+            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} val={email} />
+            <div className='sm:ml-3 about-text-blue-light cursor-pointer' onClick={(e) => {onRegister()}}>
               <ArrowRightIcon width={26} height={26} />
             </div>
           </div>
