@@ -38,8 +38,6 @@ const Home: NextPage = () => {
 
   function updateSignInStatus(isSignedIn: any) {
     console.log(isSignedIn);
-    if (isSignedIn)
-      console.log(isSignedIn);
   }
 
   useEffect(() => {
@@ -63,7 +61,7 @@ const Home: NextPage = () => {
         'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
       }).then(()=> {
         gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus); //add a function called updateSignInStatus if you want to do something once a user is logged in with Google
-        updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+        // updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
       });
     }
 
