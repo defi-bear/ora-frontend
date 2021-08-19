@@ -91,7 +91,7 @@ const Home: NextPage = () => {
 
     const valueRangeBody = {
       'majorDimension': 'ROWS', //log each entry as a new row (vs column)
-      'values': [email] //convert the object's values to an array
+      'values': [[email]] //convert the object's values to an array
     };
 
     console.log(valueRangeBody);
@@ -111,9 +111,7 @@ const Home: NextPage = () => {
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
-        <script async defer src="https://apis.google.com/js/api.js"
-          onLoad="this.onload=function(){console.log('onload');};"
-          onReadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+        <script async defer src="https://apis.google.com/js/api.js"></script>
       </Head>
       <Header height={0} />
       <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
@@ -139,7 +137,7 @@ const Home: NextPage = () => {
             Register below for the app launch, initial token offering and be eligible for early registration to receive our Airdrop! 
           </div>
           <div className='flex items-center sm:mt-6'>
-            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} val={email} />
+            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} value={email} />
             <div className='sm:ml-3 about-text-blue-light cursor-pointer' onClick={(e) => {onRegister()}}>
               <ArrowRightIcon width={26} height={26} />
             </div>
