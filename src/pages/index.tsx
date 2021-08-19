@@ -55,6 +55,7 @@ const Home: NextPage = () => {
   }, []);
 
   async function onRegister() {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
     const res = await fetch(
       'https://104.154.199.36:3001/add',
       {
