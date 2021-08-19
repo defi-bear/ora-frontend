@@ -60,8 +60,13 @@ const Home: NextPage = () => {
         'scope': SCOPE,
         'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
       }).then(()=> {
-        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus); //add a function called updateSignInStatus if you want to do something once a user is logged in with Google
-        updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+        // gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus); //add a function called updateSignInStatus if you want to do something once a user is logged in with Google
+        // updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+        Promise.resolve(gapi.auth2.getAuthInstance().signIn()).then(() => {
+          if (gapi.auth2.getAuthInstance().isSignedIn.get()) {
+            updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          }
+        });
       });
     }
 
