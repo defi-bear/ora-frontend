@@ -83,6 +83,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} />
