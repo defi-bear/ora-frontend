@@ -82,7 +82,7 @@ const Home: NextPage = () => {
         type: 'success',
         title: 'Notification'
       })
-    }).catch((e) => {
+    }).catch((e: any) => {
       console.log(e);
     });
   }
