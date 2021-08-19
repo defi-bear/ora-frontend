@@ -38,6 +38,8 @@ const Home: NextPage = () => {
 
   function updateSignInStatus(isSignedIn: any) {
     console.log(isSignedIn);
+    if (isSignedIn)
+      console.log(isSignedIn);
   }
 
   useEffect(() => {
