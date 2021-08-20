@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRightIcon } from "@heroicons/react/outline";
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Fade from 'react-reveal/Fade';
 import { toast, ToastContainer } from 'react-nextjs-toast';
@@ -37,21 +37,21 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     console.log('useffect');
-    const interval = setInterval(() => {
-      setInd(prevInd => prevInd + 1);
-    }, 2000);
+    // const interval = setInterval(() => {
+    //   setInd(prevInd => prevInd + 1);
+    // }, 2000);
 
-    AOS.init({
-      // initialise with other settings
-      duration : 1200
-    });
+    // AOS.init({
+    //   // initialise with other settings
+    //   duration : 1200
+    // });
 
     emailInput.focus();
   
-    return () => {
-      console.log(`clearing interval`);
-      clearInterval(interval);
-    };
+    // return () => {
+    //   console.log(`clearing interval`);
+    //   clearInterval(interval);
+    // };
   }, []);
 
   async function onRegister() {
