@@ -23,6 +23,7 @@ const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
   const [ind, setInd] = useState(0);
   const [email, setEmail] = useState('');
+  const [type, setType] = useState(1);
   let emailInput : any = null;
 
   useEffect(() => {
@@ -54,13 +55,15 @@ const Home: NextPage = () => {
     // };
   }, []);
 
-  async function onRegister() {
+  async function onRegister(type: number) {
     if (email.indexOf('@') === -1) {
       toast.notify(`An email must contain a single @`, {
-        duration: 5,
+        duration: 50,
         type: 'error',
         title: 'Notification'
       });
+      if (type === 2)
+        document.getElementsByClassName('toast-message-container')[0].classList.add('toast-position-relative');
       return;
     }
     const res = await fetch(
@@ -82,6 +85,8 @@ const Home: NextPage = () => {
         type: 'success',
         title: 'Notification'
       })
+      if (type === 2)
+        document.getElementsByClassName('toast-message-container')[0].classList.add('toast-position-relative');
     }).catch((e: any) => {
       console.log(e);
     });
@@ -89,7 +94,7 @@ const Home: NextPage = () => {
 
   return (
     <div className='flex flex-col overflow-hidden'>
-      <ToastContainer position={'bottom'} align={'right'} />
+      <ToastContainer position={type===1 ? 'bottom' : 'top'} align={'right'} />
       <Head>
         <title>Ora</title>
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
@@ -119,8 +124,8 @@ const Home: NextPage = () => {
             Register below for the app launch, initial token offering and be eligible for early registration to receive our Airdrop! 
           </div>
           <div className='flex items-center sm:mt-6'>
-            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} value={email} />
-            <div className='sm:ml-3 about-text-blue-light cursor-pointer' onClick={(e) => {onRegister()}}>
+            <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} onKeyPress={(e) => {if(e.key === 'Enter'){setType(1); onRegister(1);}}} />
+            <div className='sm:ml-3 about-text-blue-light cursor-pointer' onClick={(e) => {setType(1); onRegister(1);}}>
               <ArrowRightIcon width={26} height={26} />
             </div>
           </div>
@@ -257,8 +262,8 @@ const Home: NextPage = () => {
             5% of the total TIME supply will be used for an airdrop to early users!
           </div>
           <div className='flex justify-center items-center sm:mt-6'>
-            <input type='text' className='about-preregister-email-input px-4 py-2' placeholder='Enter your email address' onChange={(e) => {}} />
-            <div className='sm:ml-3 text-white cursor-pointer'>
+            <input type='text' className='about-preregister-email-input px-4 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} onKeyPress={(e) => {if(e.key === 'Enter'){setType(2); onRegister(2);}}} />
+            <div className='sm:ml-3 text-white cursor-pointer' onClick={(e) => {setType(2); onRegister(2);}}>
               <ArrowRightIcon width={26} height={26} />
             </div>
           </div>
