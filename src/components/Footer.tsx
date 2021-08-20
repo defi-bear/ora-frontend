@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 import Logo2 from '../assets/svg/logo2.svg';
-import Reddit from '../assets/png/reddit.png';
-import Twitter from '../assets/png/twitter.png';
-import Telegram from '../assets/png/telegram.png';
+import Reddit from '../assets/svg/reddit.svg';
+import Twitter from '../assets/svg/twitter.svg';
+import Telegram from '../assets/svg/telegram.svg';
 // import WhitePaperSvg from './WhitePaperSvg';
 
 interface FooterProps {

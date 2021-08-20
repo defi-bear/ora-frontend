@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import LogoX from '../assets/svg/logox.svg';
-import TimeTokenImage from '../assets/png/03.png';
+import TimeTokenImage from '../assets/svg/03.svg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const TimeToken: NextPage = () => {

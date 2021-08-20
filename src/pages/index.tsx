@@ -12,10 +12,10 @@ import { toast, ToastContainer } from 'react-nextjs-toast';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import AboutImage1 from '../assets/png/0101.png';
-import AboutImage2 from '../assets/png/0102.png';
+import AboutImage1 from '../assets/svg/0101.svg';
+import AboutImage2 from '../assets/svg/0102.svg';
 import AboutLogoImage from '../assets/gif/aboutlogo.webp';
-import EcoSystemImage from '../assets/png/02.png';
+import EcoSystemImage from '../assets/svg/02.svg';
 import TickSvg from '../components/TickSvg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
@@ -101,8 +101,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} />
-      <div className='flex justify-between 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
-        <div className='flex flex-col flex-1 sm:mt-28'>
+      <div className='flex lg:mx-auto md:mx-10'>
+        <div className='flex flex-col flex-1 sm:mt-28 about-headline-max-width 2xl:mr-20 xl:mr-10'>
           <div className='flex about-headline-roboto justify-between opacity-80 about-text-blue'>
             <div>
               The
@@ -134,12 +134,16 @@ const Home: NextPage = () => {
           <a href="/terms" target='_blank' rel='noreferrer'><span className='about-text-blue-light underline'>terms of service</span></a>.
           </div>
         </div>
-        <div className='flex-1 sm:mt-20 flex'>
-          <Image src={AboutImage1} alt='About Image1' layout='intrinsic' />
-          <div className='mx-5 mt-10'>
+        <div className='flex-1 sm:mt-20 flex items-center'>
+          <div>
+            <Image src={AboutImage1} alt='About Image1' layout='intrinsic' />
+          </div>
+          <div className='mx-5 mt-12'>
             <Image src={AboutLogoImage} alt='About Image Logo' layout='intrinsic' />
           </div>
-          <Image src={AboutImage2} alt='About Image2' layout='intrinsic' />
+          <div className='mt-6'>
+            <Image src={AboutImage2} alt='About Image2' layout='intrinsic' />
+          </div>
         </div>
       </div>
       <Fade bottom>

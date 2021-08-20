@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import AirdropImage from '../assets/png/04.png';
+import AirdropImage from '../assets/svg/04.svg';
 
 const AirDrop: NextPage = () => {
   return (
