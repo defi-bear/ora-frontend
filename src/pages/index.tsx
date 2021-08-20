@@ -55,24 +55,16 @@ const Home: NextPage = () => {
   }, []);
 
   async function onRegister() {
-    const fetch = require('node-fetch');
-    const https = require('https');
-
-    const httpsAgent = new https.Agent({
-      rejectUnauthorized: false,
-    });
-
     const res = await fetch(
-      'https://104.154.199.36:3001/add',
+      'https://oratech-back.vercel.app/api/emails/add',
       {
         body: JSON.stringify({
           user: email
         }),
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         method: 'POST',
-        agent: httpsAgent,
       }
     ).then(async (re: any) => {
       const result = await re.json()
