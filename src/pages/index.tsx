@@ -14,7 +14,7 @@ import Footer from '../components/Footer'
 
 import AboutImage1 from '../assets/png/0101.png';
 import AboutImage2 from '../assets/png/0102.png';
-import AboutLogoImage from '../assets/gif/aboutlogo.gif';
+import AboutLogoImage from '../assets/gif/aboutlogo.webp';
 import EcoSystemImage from '../assets/png/02.png';
 import TickSvg from '../components/TickSvg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
