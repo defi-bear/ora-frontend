@@ -55,6 +55,14 @@ const Home: NextPage = () => {
   }, []);
 
   async function onRegister() {
+    if (email.indexOf('@') === -1) {
+      toast.notify(`An email must contain a single @`, {
+        duration: 5,
+        type: 'error',
+        title: 'Notification'
+      });
+      return;
+    }
     const res = await fetch(
       'https://oratech-back.vercel.app/api/emails/add',
       {
@@ -69,7 +77,7 @@ const Home: NextPage = () => {
     ).then(async (re: any) => {
       const result = await re.json()
       // console.log(result);
-      toast.notify(`Successfully saved!`, {
+      toast.notify(`Congrats on registering!`, {
         duration: 5,
         type: 'success',
         title: 'Notification'
