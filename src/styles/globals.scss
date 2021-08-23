@@ -472,7 +472,7 @@ a {
   background: #041D44;
 }
 
-.time-token-notes {
+.airdrop-notes-bold {
   font-family: Kanit;
   font-style: normal;
   font-weight: 600;
@@ -481,6 +481,24 @@ a {
   /* or 40px */
 
   max-width: 1068px;
+}
+
+.time-token-notes {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 200%;
+
+  max-width: 1068px;
+}
+
+.time-token-notes-bold {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
 }
 
 .time-token-free {

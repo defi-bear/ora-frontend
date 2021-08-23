@@ -118,7 +118,7 @@ const TimeToken: NextPage = () => {
         </div>
       </div>
       <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 sm:mb-32 time-token-notes'>
-        <div className='about-text-blue'>
+        <div className='about-text-blue time-token-notes-bold'>
           Additional notes:
         </div>
         <ul className='list-disc list-outside sm:ml-6'>
@@ -126,7 +126,7 @@ const TimeToken: NextPage = () => {
             <span className='opacity-65'>
               The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the&nbsp;
               <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
-                <span className='about-text-blue-light time-token-whitepaper'>
+                <span className='about-text-blue-light time-token-whitepaper time-token-notes-bold'>
                   whitepaper
                   {/* <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} /> */}
                   <span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span>
@@ -142,7 +142,7 @@ const TimeToken: NextPage = () => {
           </li>
           <li>
             <span className='opacity-65 relative'>
-              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light'>whitepaper<span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span></span></a>.
+              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light time-token-notes-bold'>whitepaper<span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span></span></a>.
             </span>
           </li>
           <li>
@@ -157,7 +157,7 @@ const TimeToken: NextPage = () => {
           </li>
           <li>
             <span className='opacity-65 relative'>
-              With the constant payment of TIME to users for data and eventually attention, despite the staking mechanism, the TIME token will become <span className='italic'>more decentralized with each passing year.</span>
+              With the constant payment of TIME to users for data and eventually attention, despite the staking mechanism, the TIME token will become <span className='time-token-notes-bold' style={{fontStyle: 'italic !important'}}>more decentralized with each passing year.</span>
             </span>
           </li>
         </ul>
