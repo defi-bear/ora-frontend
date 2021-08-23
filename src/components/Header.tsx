@@ -18,7 +18,7 @@ export default function Header({ height=0 } : HeaderProps) {
     return styles;
   }
   return (
-    <div className='z-50'>
+    <div className='z-50 w-full fixed'>
       <div
         className='flex items-center text-white header-back header-kanit 2xl:px-60 xl:px-36 lg:px-16 md:px-2 sm:justify-between sm:py-5'
         style={getStyle()}
