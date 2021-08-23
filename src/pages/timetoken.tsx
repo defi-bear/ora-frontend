@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 
 import LogoX from '../assets/svg/logox.svg';
 import TimeTokenImage from '../assets/svg/03.svg';
+import DownloadSvg from '../assets/svg/download.svg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const TimeToken: NextPage = () => {
@@ -128,6 +129,7 @@ const TimeToken: NextPage = () => {
                 <span className='about-text-blue-light time-token-whitepaper'>
                   whitepaper
                   {/* <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} /> */}
+                  <span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span>
                 </span>
                 .
               </a>
@@ -140,7 +142,7 @@ const TimeToken: NextPage = () => {
           </li>
           <li>
             <span className='opacity-65 relative'>
-              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light'>whitepaper</span></a>.
+              <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light'>whitepaper<span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span></span></a>.
             </span>
           </li>
           <li>
