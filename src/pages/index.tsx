@@ -126,7 +126,7 @@ const Home: NextPage = () => {
             Discover the easiest way to earn lucrative rewards for your data!
           </div>
           <div className='about-subline2-kanit sm:mt-14'>
-            Register below for the app launch, initial token offering and be eligible for early registration to receive our Airdrop! 
+            Subscribe below and stay up to date on our app launch, initial token offering and early registration to receive our Airdrop.
           </div>
           <div className='flex items-center sm:mt-6'>
             <input type='text' className='about-email-input px-3 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} ref={(text) => { emailInput = text; }} onKeyPress={(e) => {if(e.key === 'Enter'){setType(1); onRegister(1);}}} />
