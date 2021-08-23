@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -45,7 +46,7 @@ const AirDrop: NextPage = () => {
           </div>
           <div>
             <span className='opacity-65'>
-              Step 1: </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Preregister</span></a><span className='opacity-65'> for the app release via email in our </span><a href='/' rel='noreferrer'><span className='about-text-blue-light'>Registration</span></a><span className='opacity-65'> tab.
+              Step 1: </span><Link href='/'><span className='about-text-blue-light cursor-pointer'>Preregister</span></Link><span className='opacity-65'> for the app release via email in our </span><Link href='/'><span className='about-text-blue-light cursor-pointer'>Registration</span></Link><span className='opacity-65'> tab.
             </span>
           </div>
           <div className='opacity-65'>
