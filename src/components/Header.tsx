@@ -30,7 +30,7 @@ export default function Header({ height=0, onRegisterClick } : HeaderProps) {
       >
         {/* <a href='/' rel='noreferrer'> */}
         <Link href='/'>
-          <Image src={Logo} alt='Logo' className='cursor-pointer' />
+          <Image src={Logo} width={50} height={44} alt='Logo' className='cursor-pointer' />
         </Link>
         {/* </a> */}
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
