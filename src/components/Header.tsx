@@ -5,7 +5,7 @@ import Link from 'next/link';
 import RegButton from './RegButton';
 
 import Logo from '../assets/svg/logo.svg';
-// import WhitePaperSvg from './WhitePaperSvg';
+import WhitePaperSvg from './WhitePaperSvg';
 
 interface HeaderProps {
   height: number
@@ -23,15 +23,17 @@ export default function Header({ height=0 } : HeaderProps) {
         className='flex items-center text-white header-back header-kanit 2xl:px-60 xl:px-36 lg:px-16 md:px-2 sm:justify-between sm:py-5'
         style={getStyle()}
       >
-        <a href='/' rel='noreferrer'>
+        {/* <a href='/' rel='noreferrer'> */}
+        <Link href='/'>
           <Image src={Logo} alt='Logo' className='cursor-pointer' />
-        </a>
+        </Link>
+        {/* </a> */}
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
           <div className='flex items-center cursor-pointer'>
             <div className='mr-1'>
               Whitepaper
             </div>
-            {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
+            <WhitePaperSvg width={16} height={16} fill={"#ffffff"} />
           </div>
         </a>
         <Link href="/roadmap">
@@ -59,9 +61,11 @@ export default function Header({ height=0 } : HeaderProps) {
             FAQ
           </div>
         </Link>
-        <a href='/' rel='noreferrer'>
+        {/* <a href='/' rel='noreferrer'> */}
+        <Link href='/'>
           <RegButton width={153} height={36} title={'Registration'} />
-        </a>
+        </Link>
+        {/* </a> */}
       </div>
     </div>
   );

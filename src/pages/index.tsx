@@ -17,7 +17,7 @@ import AboutImage2 from '../assets/svg/0102.svg';
 import AboutLogoImage from '../assets/gif/aboutlogo.webp';
 import EcoSystemImage from '../assets/svg/02.svg';
 import TickSvg from '../components/TickSvg';
-// import WhitePaperSvg from '../components/WhitePaperSvg';
+import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const Home: NextPage = () => {
   const [piece, setPiece] = useState('Future');
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} />
-      <div className='flex lg:mx-auto md:mx-10'>
+      <div className='flex lg:mx-auto md:mx-10 mt-16'>
         <div className='flex flex-col flex-1 sm:mt-28 about-headline-max-width 2xl:mr-20 xl:mr-10'>
           <div className='flex about-headline-roboto justify-between opacity-80 about-text-blue'>
             <div>
@@ -130,7 +130,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className='flex items-center sm:mt-4 about-email-input-tip'>
-            By registering your email with us you are agreeing with our&nbsp;<span className='about-text-blue-light underline'>privacy policy</span>&nbsp;and&nbsp;
+            By registering your email with us you are agreeing with our&nbsp;<a href="/privacy" target='_blank' rel='noreferrer'><span className='about-text-blue-light underline'>privacy policy</span></a>&nbsp;and&nbsp;
           <a href="/terms" target='_blank' rel='noreferrer'><span className='about-text-blue-light underline'>terms of service</span></a>.
           </div>
         </div>
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
           <div className='about-text-blue-light flex items-center cursor-pointer'>
             &nbsp;Whitepaper&nbsp;
-            {/* <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} /> */}
+            <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
           </div>
         </a>
       </div>
