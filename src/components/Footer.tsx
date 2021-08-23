@@ -65,12 +65,14 @@ export default function Footer({ height=0 } : FooterProps) {
             </div>
           </a>
           <div className='border-r border-white sm:mx-3' />
-          <div className='flex items-center'>
-            <div className='mr-1'>
-              Privacy Policy
+          <a href="/privacy" target='_blank' rel='noreferrer'>
+            <div className='flex items-center'>
+              <div className='mr-1'>
+                Privacy Policy
+              </div>
+              {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
             </div>
-            {/* <WhitePaperSvg width={16} height={16} fill={"#ffffff"} /> */}
-          </div>
+          </a>
         </div>
         <div className='about-allrights-reserved'>
           © Ora.app 2021 - All Rights Reserved.
