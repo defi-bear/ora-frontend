@@ -55,6 +55,11 @@ const Home: NextPage = () => {
     // };
   }, []);
 
+  function onRegisterClick() {
+    console.log('onregister');
+    emailInput.focus();
+  }
+
   async function onRegister(type: number) {
     if (email.indexOf('@') === -1) {
       toast.notify(`An email must contain a single @`, {
@@ -100,7 +105,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={0} />
+      <Header height={0} onRegisterClick={onRegisterClick} />
       <div className='flex lg:mx-auto md:mx-10 mt-16'>
         <div className='flex flex-col flex-1 sm:mt-28 about-headline-max-width 2xl:mr-20 xl:mr-10'>
           <div className='flex about-headline-roboto justify-between opacity-80 about-text-blue'>

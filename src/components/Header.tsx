@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import RegButton from './RegButton';
 
@@ -8,15 +9,19 @@ import Logo from '../assets/svg/logo.svg';
 import WhitePaperSvg from './WhitePaperSvg';
 
 interface HeaderProps {
-  height: number
+  height: number,
+  onRegisterClick: () => void;
 };
 
-export default function Header({ height=0 } : HeaderProps) {
+export default function Header({ height=0, onRegisterClick } : HeaderProps) {
+  const { asPath } = useRouter()
+
   function getStyle() {
     let styles = {};
     if (height) styles = Object.assign(styles, { height: height });
     return styles;
   }
+
   return (
     <div className='z-50 w-full fixed'>
       <div
@@ -62,9 +67,15 @@ export default function Header({ height=0 } : HeaderProps) {
           </div>
         </Link>
         {/* <a href='/' rel='noreferrer'> */}
-        <Link href='/'>
-          <RegButton width={153} height={36} title={'Registration'} />
-        </Link>
+        { asPath !== '/' ? (
+          <Link href='/'>
+            <RegButton width={153} height={36} title={'Registration'} />
+          </Link>
+        ) : (
+          <div onClick={(e) => {if (onRegisterClick) onRegisterClick();}}>
+            <RegButton width={153} height={36} title={'Registration'} />
+          </div>
+        )}
         {/* </a> */}
       </div>
     </div>

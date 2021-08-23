@@ -10,6 +10,8 @@ import TimeTokenImage from '../assets/svg/03.svg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
 const TimeToken: NextPage = () => {
+  function onRegisterClick() {}
+
   return (
     <div className='flex flex-col'>
       <Head>
@@ -17,7 +19,7 @@ const TimeToken: NextPage = () => {
         <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header height={0} />
+      <Header height={0} onRegisterClick={onRegisterClick} />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
