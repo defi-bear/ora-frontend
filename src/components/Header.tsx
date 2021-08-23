@@ -68,9 +68,9 @@ export default function Header({ height=0, onRegisterClick } : HeaderProps) {
         </Link>
         {/* <a href='/' rel='noreferrer'> */}
         { asPath !== '/' ? (
-          <Link href='/'>
+          <a href='/' rel='noreferrer'>
             <RegButton width={153} height={36} title={'Registration'} />
-          </Link>
+          </a>
         ) : (
           <div onClick={(e) => {if (onRegisterClick) onRegisterClick();}}>
             <RegButton width={153} height={36} title={'Registration'} />
