@@ -402,7 +402,7 @@ const Team: NextPage = () => {
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
-            Team<span className='about-text-blue'>&nbsp;Memebers</span>
+            Team<span className='about-text-blue'>&nbsp;Members</span>
           </div>
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
