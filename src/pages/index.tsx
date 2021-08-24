@@ -8,13 +8,13 @@ import { ArrowRightIcon } from "@heroicons/react/outline";
 import 'aos/dist/aos.css';
 import Fade from 'react-reveal/Fade';
 import { toast, ToastContainer } from 'react-nextjs-toast';
+import ReactPlayer from 'react-player';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 import AboutImage1 from '../assets/svg/0101.svg';
 import AboutImage2 from '../assets/svg/0102.svg';
-import AboutLogoImage from '../assets/gif/aboutlogo.webp';
 import EcoSystemImage from '../assets/svg/02.svg';
 import TickSvg from '../components/TickSvg';
 import WhitePaperSvg from '../components/WhitePaperSvg';
@@ -144,7 +144,8 @@ const Home: NextPage = () => {
             <Image src={AboutImage1} alt='About Image1' layout='intrinsic' />
           </div>
           <div className='mx-5 mt-12 about-animation-max-width'>
-            <Image src={AboutLogoImage} alt='About Image Logo' layout='intrinsic' />
+            {/* <Image src={AboutLogoImage} alt='About Image Logo' layout='intrinsic' /> */}
+            <ReactPlayer muted width='100%' height='100%' playing loop url={[`/aboutlogo.mp4`]} />
           </div>
           <div className='mt-6'>
             <Image src={AboutImage2} alt='About Image2' layout='intrinsic' />
