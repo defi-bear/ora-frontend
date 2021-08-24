@@ -143,7 +143,7 @@ const Home: NextPage = () => {
           <div>
             <Image src={AboutImage1} alt='About Image1' layout='intrinsic' />
           </div>
-          <div className='mx-5 mt-12'>
+          <div className='mx-5 mt-12 about-animation-max-width'>
             <Image src={AboutLogoImage} alt='About Image Logo' layout='intrinsic' />
           </div>
           <div className='mt-6'>
