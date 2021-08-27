@@ -379,6 +379,11 @@ a {
   /* identical to box height */
 
   letter-spacing: 0.013em;
+
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    margin-top: 45px;
+  }
 }
 
 .about-allrights-reserved {
@@ -391,6 +396,10 @@ a {
   letter-spacing: 0.07em;
 
   opacity: 0.85;
+  @media screen and (max-width: 640px){
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 .about-contact-us {
@@ -402,6 +411,11 @@ a {
   /* identical to box height */
 
   letter-spacing: 0.013em;
+
+  @media screen and (max-width: 640px){
+    margin-top: 29px;
+    font-size: 14px;
+  }
 }
 
 .about-email-info {
