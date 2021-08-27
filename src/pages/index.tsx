@@ -122,10 +122,10 @@ const Home: NextPage = () => {
                         <div>
                             of
                         </div>
-                        <div className="sm:appearance-none" >Data</div>
+                        <div className="sm:hidden" >Data</div>
 
                     </div>
-                        <div className='about-headline-roboto opacity-80 about-text-blue'>
+                        <div className='hidden sm:block about-headline-roboto opacity-80 about-text-blue'>
                             Data
                         </div>
 

@@ -105,7 +105,9 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
                     <div className="h-1 bg-gray-50"></div>
                     <div className="flex flex-col text-white" style={{height: isShowMenu ? "auto" :0, overflow: 'hidden'}}>
                         <div className="py-1.5 p-3 hover:bg-gray-500">Whitepaper</div>
-                        <div className="py-1.5 p-3 hover:bg-gray-500 ">Roadmap</div>
+                        <Link href="/roadmap">
+                            <div className="py-1.5 p-3 hover:bg-gray-500 ">Roadmap</div>
+                        </Link>
                         <div className="py-1.5 p-3 hover:bg-gray-500">Team</div>
                         <div className="py-1.5 p-3 hover:bg-gray-500">TIME Token</div>
                         <div className="py-1.5 p-3 hover:bg-gray-500">Airdrop</div>

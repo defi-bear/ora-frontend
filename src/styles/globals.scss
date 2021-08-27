@@ -56,7 +56,6 @@ a {
     line-height: 35.16px;
     font-size: 30px;
     letter-spacing: 0;
-    display: none;
   }
 }
 
@@ -465,8 +464,12 @@ a {
   font-size: 40px;
   line-height: 60px;
   /* identical to box height */
-
   color: #4AA3E0;
+
+  @media screen and (max-width: 640px){
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 
 .roadmap-headline-line {
@@ -480,6 +483,10 @@ a {
   font-size: 18px;
   line-height: 27px;
   /* identical to box height */
+  @media screen and (max-width: 640px){
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 .roadmap-title {
@@ -488,6 +495,12 @@ a {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+
+  @media screen and (max-width: 640px){
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
   /* identical to box height */
 }
 
@@ -502,6 +515,9 @@ a {
 
 .roadmap-title-border-bottom {
   border-bottom: 1px solid #041D44;
+  @media screen and (max-width: 640px){
+    border-bottom-width: 0px;
+  }
 }
 
 .roadmap-title-border-bottom-light {
