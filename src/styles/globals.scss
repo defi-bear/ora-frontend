@@ -115,6 +115,9 @@ a {
   @media screen and (max-width: 640px){
     min-width: 160px;
     height: 29px;
+    width: 200px;
+    font-size: 11px;
+    line-height: 17px;
   }
 }
 
@@ -132,6 +135,7 @@ a {
 
   @media screen and (max-width: 640px){
     display: inline-block;
+    //justify-content: center;
   }
 }
 
@@ -144,6 +148,7 @@ a {
   @media screen and (max-width: 640px) {
     //font-size: 16px;
     //line-height: 21px;
+    margin-left: 8px;
   }
 }
 
@@ -322,6 +327,13 @@ a {
   left: -10%;
   border-radius: 50%;
   top: -250px;
+  @media screen and (max-width: 640px){
+    top: 0px;
+    width: 224%;
+    left: -62%;
+    padding-left: 260px;
+    padding-right: 260px;
+  }
 }
 
 .about-preregister {
@@ -331,9 +343,15 @@ a {
   font-size: 20px;
   line-height: 140%;
   /* or 28px */
-
   text-align: center;
   letter-spacing: -0.013em;
+
+  @media screen and (max-width: 640px){
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 20px;
+
+  }
 }
 
 .about-totalsupply {
@@ -346,6 +364,10 @@ a {
 
   text-align: center;
   letter-spacing: -0.013em;
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .about-terms {
@@ -395,11 +417,9 @@ a {
 
 .about-preregister-email-input {
   border-radius: 5px;
-
   min-width: 479px;
   max-width: 479px;
   height: 52px;
-
   font-family: Kanit;
   font-style: normal;
   font-weight: 300;
@@ -412,6 +432,14 @@ a {
   width: 100%;
   &:focus {
     outline: none;
+  }
+  @media screen and (max-width: 640px){
+    max-width: 220px;
+    min-width: 160px;
+    height: 29px;
+    width: 200px;
+    font-size: 11px;
+    line-height: 17px;
   }
 }
 
