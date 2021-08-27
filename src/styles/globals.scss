@@ -156,6 +156,13 @@ a {
   box-shadow: 0px 0px 20px rgba(4, 29, 68, 0.075);
   border-radius: 15px;
 
+  @media screen and (max-width: 640px){
+    margin-top: 66px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding: 32px 28px ;
+  }
+
   // max-width: 1200px;
   // width: 1200px;
 }
@@ -167,6 +174,11 @@ a {
   font-size: 25px;
   line-height: 110%;
   /* identical to box height, or 28px */
+  @media screen and (max-width: 640px){
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
 }
 
 .about-ora-description-subtitle {
@@ -176,6 +188,14 @@ a {
   font-size: 20px;
   line-height: 110%;
   /* identical to box height, or 22px */
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+    font-weight: 600;
+    margin-left: 8px;
+
+  }
 }
 
 .about-ora-description-content {
@@ -185,8 +205,15 @@ a {
   font-size: 20px;
   line-height: 140%;
   /* or 28px */
-
   opacity: 0.65;
+
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+    margin-left: 8px;
+
+  }
 }
 
 .about-ora-description-footer {
@@ -200,6 +227,14 @@ a {
   /* or 27px */
 
   letter-spacing: -0.02em;
+
+
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    margin-top: 30px;
+  }
 }
 
 .about-ora-ecosystem-back {

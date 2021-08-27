@@ -177,47 +177,47 @@ const Home: NextPage = () => {
                     </div>
                 </div>
             </div>
-            {/*<Fade bottom>*/}
-            {/*  <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28'>*/}
-            {/*    <div className='about-ora-description-title about-text-blue'>*/}
-            {/*      Ora is on a mission to re-invent and modernize the data industry*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle about-text-blue sm:mt-12'>*/}
-            {/*      Ora offers online users:*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle sm:mt-3 flex items-center'>*/}
-            {/*      <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />*/}
-            {/*      <div className='about-ora-description-content sm:ml-3'>*/}
-            {/*        The <span className='font-bold'>most lucrative rewards</span> for their data.*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle flex items-center'>*/}
-            {/*      <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />*/}
-            {/*      <div className='about-ora-description-content sm:ml-3'>*/}
-            {/*        Complete privacy with <span className='font-bold'>no name or exact location linked to data.</span>*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle about-text-blue sm:mt-8'>*/}
-            {/*      Ora offers online consumers:*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle sm:mt-3 flex items-center'>*/}
-            {/*      <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />*/}
-            {/*      <div className='about-ora-description-content sm:ml-3'>*/}
-            {/*        The <span className='font-bold'>most detailed, accurate real-time data avaliable anywhere.</span>*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-subtitle flex items-center'>*/}
-            {/*      <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />*/}
-            {/*      <div className='about-ora-description-content sm:ml-3'>*/}
-            {/*        The ability to <span className='font-bold'>initiate data requests</span> and gain unprecedented <span className='font-bold'>real-time market insights.</span>*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-footer about-text-blue sm:mt-12'>*/}
-            {/*      It is no secret that the most valuable commodity for humans is time! It is no coincidence that*/}
-            {/*      Ora’s ecosystem is powered by a utility token called TIME.*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</Fade>*/}
+            <Fade bottom>
+              <div className='flex flex-col xl:mx-auto lg:mx-16 md:mx-10 about-ora-description sm:px-20 sm:py-16 sm:mt-28'>
+                <div className='about-ora-description-title about-text-blue'>
+                  Ora is on a mission to re-invent and modernize the data industry
+                </div>
+                <div className='about-ora-description-subtitle about-text-blue mt-12'>
+                  Ora offers online users:
+                </div>
+                <div className='about-ora-description-subtitle mt-3 flex items-center'>
+                  <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
+                  <div className='about-ora-description-content sm:ml-3'>
+                    The <span className='font-bold'>most lucrative rewards</span> for their data.
+                  </div>
+                </div>
+                <div className='about-ora-description-subtitle flex items-center mt-3 sm:mt-0'>
+                  <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
+                  <div className='about-ora-description-content sm:ml-3'>
+                    Complete privacy with <span className='font-bold'>no name or exact location linked to data.</span>
+                  </div>
+                </div>
+                <div className='about-ora-description-subtitle about-text-blue mt-8'>
+                  Ora offers online consumers:
+                </div>
+                <div className='about-ora-description-subtitle mt-3 flex items-center'>
+                  <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
+                  <div className='about-ora-description-content sm:ml-3'>
+                    The <span className='font-bold'>most detailed, accurate real-time data avaliable anywhere.</span>
+                  </div>
+                </div>
+                <div className='about-ora-description-subtitle flex items-center mt-3 sm:mt-3'>
+                  <TickSvg width={23.62} height={16.66} fill={"#2E3192"} />
+                  <div className='about-ora-description-content sm:ml-3'>
+                    The ability to <span className='font-bold'>initiate data requests</span> and gain unprecedented <span className='font-bold'>real-time market insights.</span>
+                  </div>
+                </div>
+                <div className='about-ora-description-footer about-text-blue sm:mt-12'>
+                  It is no secret that the most valuable commodity for humans is time! It is no coincidence that
+                  Ora’s ecosystem is powered by a utility token called TIME.
+                </div>
+              </div>
+            </Fade>
             {/*<Fade bottom>*/}
             {/*  <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>*/}
             {/*    <div className='about-ora-ecosystem-title about-text-blue'>*/}
