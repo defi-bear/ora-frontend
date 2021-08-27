@@ -296,23 +296,23 @@ const Home: NextPage = () => {
                 </div>
               </a>
             </div>
-            {/*<div className='flex relative sm:mt-96'>*/}
-            {/*  <div className='absolute about-footer'>*/}
-            {/*    <div className='about-preregister text-white lg:mt-16 md:mt-24'>*/}
-            {/*      Pre-register below to be one of the lucky individuals to receive the <Link href='/airdrop'><span className='underline cursor-pointer'>Ora Airdrop!</span></Link>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-totalsupply text-white'>*/}
-            {/*      5% of the total TIME supply will be used for an airdrop to early users!*/}
-            {/*    </div>*/}
-            {/*    <div className='flex justify-center items-center sm:mt-6'>*/}
-            {/*      <input type='text' className='about-preregister-email-input px-4 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} onKeyPress={(e) => {if(e.key === 'Enter'){setType(2); onRegister(2);}}} />*/}
-            {/*      <div className='sm:ml-3 text-white cursor-pointer' onClick={(e) => {setType(2); onRegister(2);}}>*/}
-            {/*        <ArrowRightIcon width={26} height={26} />*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-            {/*<Footer height={0} />*/}
+            <div className='flex relative sm:mt-96'>
+              <div className='absolute about-footer'>
+                <div className='about-preregister text-white lg:mt-16 md:mt-24'>
+                  Pre-register below to be one of the lucky individuals to receive the <Link href='/airdrop'><span className='underline cursor-pointer'>Ora Airdrop!</span></Link>
+                </div>
+                <div className='about-totalsupply text-white'>
+                  5% of the total TIME supply will be used for an airdrop to early users!
+                </div>
+                {/*<div className='flex justify-center items-center sm:mt-6'>
+                  <input type='text' className='about-preregister-email-input px-4 py-2' placeholder='Enter your email address' onChange={(e) => { setEmail(e.target.value); }} onKeyPress={(e) => {if(e.key === 'Enter'){setType(2); onRegister(2);}}} />
+                  <div className='sm:ml-3 text-white cursor-pointer' onClick={(e) => {setType(2); onRegister(2);}}>
+                    <ArrowRightIcon width={26} height={26} />
+                  </div>
+                </div>*/}
+              </div>
+            </div>
+            <Footer height={0} />
         </div>
     )
 }
