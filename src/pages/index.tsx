@@ -26,8 +26,8 @@ const Home: NextPage = () => {
     const [ind, setInd] = useState(0);
     const [email, setEmail] = useState('');
     const [type, setType] = useState(1);
-    const isNotMobile = useMediaQuery({minWidth: 640});
-    const isMobile = useMediaQuery({maxWidth: 640});
+    const isNotMobile = useMediaQuery({ query: '(min-width: 640px)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
     let emailInput: any = null;
 
     useEffect(() => {
@@ -122,15 +122,13 @@ const Home: NextPage = () => {
                         <div>
                             of
                         </div>
-                        {isMobile && <div>
+                        <div className="sm:appearance-none" >Data</div>
+
+                    </div>
+                        <div className='about-headline-roboto opacity-80 about-text-blue'>
                             Data
-                        </div>}
-                    </div>
-                    {isNotMobile &&
-                    <div className='about-headline-roboto opacity-80 about-text-blue'>
-                        Data
-                    </div>
-                    }
+                        </div>
+
                     <div className='about-subline-roboto  opacity-80 sm:mt-5 about-text-blue'>
                         Discover the easiest way to earn lucrative rewards for your data!
                     </div>
@@ -229,15 +227,12 @@ const Home: NextPage = () => {
                     <div className='about-ora-ecosystem-title about-text-blue'>
                         TIME powers the Ora ecosystem.
                     </div>
-                    {isNotMobile ? (
-                        <div className='sm:mt-20 sm:mb-32'>
+                        <div className='hidden sm:block  sm:mt-20 sm:mb-32'>
                             <Image src={EcoSystemImage} alt='EcoSystem Image'/>
                         </div>
-                    ) : (
-                        <div className='mt-6'>
+                        <div className='block sm:hidden mt-6'>
                             <Image src={MobileEcoSystemImage} alt='EcoSystem Image'/>
                         </div>
-                    )}
 
                 </div>
             </Fade>
