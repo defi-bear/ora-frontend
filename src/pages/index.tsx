@@ -236,66 +236,66 @@ const Home: NextPage = () => {
 
               </div>
             </Fade>
-            {/*<Fade bottom>*/}
-            {/*  <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8' data-aos='about-animation'>*/}
-            {/*    <div className='about-how-it-works-title flex justify-center'>*/}
-            {/*      How It Works*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-title about-text-blue sm:mt-10'>*/}
-            {/*      Registration*/}
-            {/*    </div>*/}
-            {/*    <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>*/}
-            {/*      <li>*/}
-            {/*        Download and install the FREE Ora app on your mobile phone (Android and iOS available).*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Upon registration, your account will receive a generous TIME reward.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Turn on Ora app notifications to receive bonus TIME rewards.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Use a friends referral code (even if already signed up) and send out yours to receive bonus TIME rewards.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        You are now all set to receive data requests and continued rewards!*/}
-            {/*      </li>*/}
-            {/*    </ul>*/}
-            {/*    <div className='border-b sm:my-6'>*/}
-            {/*    </div>*/}
-            {/*    <div className='about-ora-description-title about-text-blue'>*/}
-            {/*      After Registration*/}
-            {/*    </div>*/}
-            {/*    <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>*/}
-            {/*      <li>*/}
-            {/*        Eligible users will receive a notification that there is a new data request available.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Click a few multiple choice answers in less than 30 seconds and receive TIME for every answer provided.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Grow your TIME by staking on chain to receive generous staking rewards (see whitepaper for details).*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Collected metadata is made available to data consumers.  The privacy of the user’s name and the exact location is protected.*/}
-            {/*      </li>*/}
-            {/*      <li>*/}
-            {/*        Refer as many people as you like to earn ongoing TIME rewards from friends and family’s data!*/}
-            {/*      </li>*/}
-            {/*    </ul>*/}
-            {/*  </div>*/}
-            {/*</Fade>*/}
-            {/*<div className='sm:mx-auto flex about-learn-more sm:mt-12'>*/}
-            {/*  <div className='about-text-blue'>*/}
-            {/*    Learn more by reading our*/}
-            {/*  </div>*/}
-            {/*  <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>*/}
-            {/*    <div className='about-text-blue-light flex items-center cursor-pointer'>*/}
-            {/*      &nbsp;Whitepaper&nbsp;*/}
-            {/*      <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />*/}
-            {/*    </div>*/}
-            {/*  </a>*/}
-            {/*</div>*/}
+            <Fade bottom>
+              <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8' data-aos='about-animation'>
+                <div className='about-how-it-works-title flex justify-center'>
+                  How It Works
+                </div>
+                <div className='about-ora-description-title about-text-blue sm:mt-10'>
+                  Registration
+                </div>
+                <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>
+                  <li>
+                      Download and install the <span className='font-bold'> FREE</span> Ora app on your mobile phone (Android and iOS available).
+                  </li>
+                  <li>
+                    Upon registration, your account will receive a generous TIME reward.
+                  </li>
+                  <li>
+                    Turn on Ora app notifications to receive bonus TIME rewards.
+                  </li>
+                  <li>
+                    Use a friends referral code (even if already signed up) and send out yours to receive bonus TIME rewards.
+                  </li>
+                  <li>
+                    You are now all set to receive data requests and continued rewards!
+                  </li>
+                </ul>
+                <div className='border-b sm:my-6'>
+                </div>
+                <div className='about-ora-description-title about-text-blue'>
+                  After Registration
+                </div>
+                <ul className='list-disc about-ora-description-content list-outside sm:mt-2 sm:ml-6'>
+                  <li>
+                    Eligible users will receive a notification that there is a new data request available.
+                  </li>
+                  <li>
+                    Click a few multiple choice answers in less than 30 seconds and receive TIME for every answer provided.
+                  </li>
+                  <li>
+                    Grow your TIME by staking on chain to receive generous staking rewards (see whitepaper for details).
+                  </li>
+                  <li>
+                    Collected metadata is made available to data consumers.  The privacy of the user’s name and the exact location is protected.
+                  </li>
+                  <li>
+                    Refer as many people as you like to earn ongoing TIME rewards from friends and family’s data!
+                  </li>
+                </ul>
+              </div>
+            </Fade>
+            <div className='sm:mx-auto flex about-learn-more sm:mt-12'>
+              <div className='about-text-blue'>
+                Learn more by reading our
+              </div>
+              <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
+                <div className='about-text-blue-light flex items-center cursor-pointer'>
+                  &nbsp;Whitepaper&nbsp;
+                  <WhitePaperSvg width={16} height={16} fill={"#4AA3E0"} />
+                </div>
+              </a>
+            </div>
             {/*<div className='flex relative sm:mt-96'>*/}
             {/*  <div className='absolute about-footer'>*/}
             {/*    <div className='about-preregister text-white lg:mt-16 md:mt-24'>*/}

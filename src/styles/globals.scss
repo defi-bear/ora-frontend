@@ -141,6 +141,10 @@ a {
 
 .about-text-blue-light {
   color: #4AA3E0;
+  @media screen and (max-width: 640px) {
+    //font-size: 16px;
+    //line-height: 21px;
+  }
 }
 
 .about-text-red {
@@ -176,8 +180,9 @@ a {
   /* identical to box height, or 28px */
   @media screen and (max-width: 640px){
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+    line-height: 24px;
+    text-align: start;
+    margin-top: 1.6rem;
   }
 }
 
@@ -209,7 +214,7 @@ a {
 
   @media screen and (max-width: 640px){
     font-size: 14px;
-    line-height: 19px;
+    line-height: 24px;
     text-align: start;
     margin-left: 8px;
 
@@ -267,6 +272,12 @@ a {
 
 .about-how-it-works {
   max-width: 1022px;
+  @media screen and (max-width: 640px){
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 32px 28px ;
+  }
 }
 
 .about-how-it-works-title {
@@ -276,6 +287,12 @@ a {
   font-size: 35px;
   line-height: 52px;
   letter-spacing: 0.02em;
+  @media screen and (max-width: 640px){
+    font-size: 20px;
+    line-height: 30px;
+
+  }
+
 }
 
 .about-learn-more {
@@ -287,6 +304,15 @@ a {
   /* identical to box height, or 30px */
 
   letter-spacing: -0.013em;
+
+  @media screen and (max-width: 640px){
+    margin-top: 14px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+  }
 }
 
 .about-footer {
