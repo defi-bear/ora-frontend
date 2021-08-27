@@ -242,6 +242,13 @@ a {
   // opacity: 0.05;
   filter: drop-shadow(0px 0px 20px rgba(4, 29, 68, 0.0325));
   border-radius: 15px;
+
+  @media screen and (max-width: 640px){
+    margin-top: 50px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding: 32px 28px ;
+  }
 }
 
 .about-ora-ecosystem-title {
@@ -251,6 +258,11 @@ a {
   font-size: 35px;
   line-height: 52px;
   letter-spacing: 0.02em;
+  @media screen and (max-width: 640px){
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
 }
 
 .about-how-it-works {

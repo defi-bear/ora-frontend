@@ -17,6 +17,7 @@ import Footer from '../components/Footer'
 import AboutImage1 from '../assets/svg/0101.svg';
 import AboutImage2 from '../assets/svg/0102.svg';
 import EcoSystemImage from '../assets/svg/02.svg';
+import MobileEcoSystemImage from "../assets/png/02_mobile.png";
 import TickSvg from '../components/TickSvg';
 import WhitePaperSvg from '../components/WhitePaperSvg';
 
@@ -218,16 +219,23 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </Fade>
-            {/*<Fade bottom>*/}
-            {/*  <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>*/}
-            {/*    <div className='about-ora-ecosystem-title about-text-blue'>*/}
-            {/*      TIME powers the Ora ecosystem.*/}
-            {/*    </div>*/}
-            {/*    <div className='sm:mt-20 sm:mb-32'>*/}
-            {/*      <Image src={EcoSystemImage} alt='EcoSystem Image' />*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</Fade>*/}
+            <Fade bottom>
+              <div className='flex flex-col 2xl:mx-auto xl:mx-24 lg:mx-12 md:mx-8 items-center about-ora-ecosystem-back sm:px-20 sm:py-16 sm:mt-28'>
+                <div className='about-ora-ecosystem-title about-text-blue'>
+                  TIME powers the Ora ecosystem.
+                </div>
+                  {isNotMobile ? (
+                      <div className='sm:mt-20 sm:mb-32'>
+                          <Image src={EcoSystemImage} alt='EcoSystem Image' />
+                      </div>
+                  ) : (
+                      <div className='mt-6'>
+                          <Image src={MobileEcoSystemImage} alt='EcoSystem Image' />
+                      </div>
+                  )}
+
+              </div>
+            </Fade>
             {/*<Fade bottom>*/}
             {/*  <div className='about-how-it-works flex flex-col xl:mx-auto lg:mx-16 md:mx-8' data-aos='about-animation'>*/}
             {/*    <div className='about-how-it-works-title flex justify-center'>*/}
