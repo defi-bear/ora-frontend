@@ -679,6 +679,11 @@ a {
   /* or 40px */
 
   max-width: 1068px;
+
+  @media screen and (max-width: 640px){
+    font-size: 16px;
+    line-height: 27px;
+  }
 }
 
 .time-token-notes {
@@ -715,6 +720,10 @@ a {
   font-weight: 600;
   font-size: 25px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 28px;
+  }
 }
 
 .time-token-simple {
@@ -723,6 +732,10 @@ a {
   font-weight: 500;
   font-size: 22px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 28px;
+  }
 }
 
 .time-token-whitepaper {
@@ -736,6 +749,12 @@ a {
   font-weight: normal;
   font-size: 20px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 27px;
+  }
 }
 
 .airdrop-split {
@@ -749,6 +768,11 @@ a {
   font-size: 25px;
   line-height: 200%;
   /* or 50px */
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 28px;
+    align-items: start;
+  }
 }
 
 .airdrop-free-description {
@@ -757,6 +781,10 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 28px;
+  }
   /* or 50px */
 }
 

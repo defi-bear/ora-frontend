@@ -19,7 +19,7 @@ const AirDrop: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} onRegisterClick={onRegisterClick} />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28 px-8 sm:px-0'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             Air<span className='about-text-blue'>drop</span>
@@ -27,27 +27,30 @@ const AirDrop: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 items-center sm:mb-10'>
-        <div>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 mt-11 sm:mt-10 items-center sm:mb-10'>
+        <div className="w-64 sm:w-1/2" >
           <Image src={AirdropImage} alt='Airdrop Image' />
         </div>
-        <div className='airdrop-headline sm:mt-20'>
+        <div className='airdrop-headline mt-7 sm:mt-20 px-20 sm:px-0'>
           <span className='opacity-65'>Ora has allocated up to</span><span className='airdrop-notes-bold about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to early registrants and users.</span>
         </div>
       </div>
-      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free items-center'>
+      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free items-center px-8 sm:px-0 mt-8 sm:mt-0'>
         How to get this<span className='about-text-blue-light time-token-free'>&nbsp;FREE&nbsp;</span>airdrop?
-        <div className='italic about-text-blue time-token-simple sm:mt-1'>
+        <div className='hidden sm:block italic about-text-blue time-token-simple sm:mt-1'>
           &nbsp;-&nbsp;Simple!
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 airdrop-free-description'>
-        <div className='flex flex-col about-text-blue sm:mb-20'>
-          <div className='sm:mb-8 opacity-65'>
+        <div className='italic about-text-blue time-token-simple  px-8 sm:hidden mt-7 '>
+            &nbsp;-&nbsp;Simple!
+        </div>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 airdrop-free-description px-8 sm:px-0'>
+        <div className='flex flex-col about-text-blue sm:mb-20 pb-12'>
+          <div className='sm:mb-8 opacity-65 mt-7 sm:mt-0'>
             Be one of the first 10,000 app registrations or register within the first month of app launch.
           </div>
-          <div>
-            <span className='opacity-65'>
+          <div className="mt-7 sm:mt-0" >
+            <span className='opacity-65 '>
               Step 1: </span><Link href='/'><span className='about-text-blue-light cursor-pointer'>Preregister</span></Link><span className='opacity-65'> for the app release via email in our </span><Link href='/'><span className='about-text-blue-light cursor-pointer'>Registration</span></Link><span className='opacity-65'> tab.
             </span>
           </div>
