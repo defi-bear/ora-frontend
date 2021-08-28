@@ -17,16 +17,16 @@ const Faq: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} onRegisterClick={onRegisterClick} />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
-        <div className='flex justify-center items-center'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28'>
+        <div className='flex justify-center items-center px-8 sm:px-0'>
           <div className='roadmap-headline'>
             FAQ
           </div>
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-description sm:mt-10'>
-        <div className='flex'>
+      <div className='flex flex-col 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-description mt-16 sm:mt-10 px-8 sm:px-0'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             1.
           </div>
@@ -41,22 +41,22 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             2.
           </div>
           <div className='flex flex-col'>
             <div className='about-text-blue'>
-              Q – Just by registering, can I earn TIME? 
+              Q – Just by registering, can I earn TIME?
             </div>
             <div className='opacity-65 faq-pair'>
-              A – Yes! Your registration details allow us to learn who you are, and in return, we pay you in TIME for it. 
+              A – Yes! Your registration details allow us to learn who you are, and in return, we pay you in TIME for it.
               <br />
               <br />
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             3.
           </div>
@@ -65,13 +65,13 @@ const Faq: NextPage = () => {
               Q – How can I earn more TIME after registration?
             </div>
             <div className='opacity-65 faq-pair'>
-              A – If you allow notifications, you will receive a notification anytime Ora needs more information.  These data requests will be simple, fun questions that you can answer in a couple of minutes or likely just seconds! 
+              A – If you allow notifications, you will receive a notification anytime Ora needs more information.  These data requests will be simple, fun questions that you can answer in a couple of minutes or likely just seconds!
               <br />
               <br />
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             4.
           </div>
@@ -86,7 +86,7 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             5.
           </div>
@@ -101,7 +101,7 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             6.
           </div>
@@ -116,7 +116,7 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             7.
           </div>
@@ -125,13 +125,13 @@ const Faq: NextPage = () => {
               Q – How can I stake my TIME?
             </div>
             <div className='opacity-65 faq-pair'>
-              A – In our app, you will find a tab that shows “staking” and “unstaking,” by clicking the staking to stake your TIME, you will begin earning staking rewards until you unstake your TIME. 
+              A – In our app, you will find a tab that shows “staking” and “unstaking,” by clicking the staking to stake your TIME, you will begin earning staking rewards until you unstake your TIME.
               <br />
               <br />
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             8.
           </div>
@@ -149,7 +149,7 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             9.
           </div>
@@ -167,7 +167,7 @@ const Faq: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex font-14'>
           <div className='sm:mr-3'>
             10.
           </div>
@@ -184,12 +184,17 @@ const Faq: NextPage = () => {
         </div>
       </div>
       <div className='flex airdrop-split sm:mb-10' />
-      <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-welcome sm:mb-10'>
+      <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 faq-welcome sm:mb-10 mt-8 sm:mt-0'>
         Ora welcomes further questions and discussion
       </div>
-      <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 text-white items-center'>
+      <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 text-white items-center hidden sm:block  '>
         <a href='https://t.me/joinchat/Sd0c9GeJoNdiNzZh' target='_blank' rel='noreferrer'>
           <RegButton width={224} height={36} title={'Join Our Community'} />
+        </a>
+      </div>
+      <div className='flex justify-center 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 mb-12 sm:mb-10 text-white items-center mt-7 sm:mt-0 sm:hidden '>
+        <a href='https://t.me/joinchat/Sd0c9GeJoNdiNzZh' target='_blank' rel='noreferrer'>
+          <RegButton width={190} height={30} title={'Join Our Community'} />
         </a>
       </div>
       <Footer height={0} />

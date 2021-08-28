@@ -35,6 +35,8 @@ const AirDrop: NextPage = () => {
           <span className='opacity-65'>Ora has allocated up to</span><span className='airdrop-notes-bold about-text-blue'>&nbsp;5% of the total TIME supply&nbsp;</span><span className='opacity-65'>for a FREE airdrop to early registrants and users.</span>
         </div>
       </div>
+
+        <div className='flex airdrop-split sm:mb-10 mt-7 sm:mt-0  xl:mx-36 lg:mx-16 md:mx-6 mx-8 sm:mx-0 ' />
       <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-10 airdrop-free items-center px-8 sm:px-0 mt-8 sm:mt-0'>
         How to get this<span className='about-text-blue-light time-token-free'>&nbsp;FREE&nbsp;</span>airdrop?
         <div className='hidden sm:block italic about-text-blue time-token-simple sm:mt-1'>

@@ -9,7 +9,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -29,6 +29,10 @@ a {
   font-size: 18px;
   line-height: 27px;
   border-radius: 15px;
+  @media screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 .header-back {
@@ -52,7 +56,7 @@ a {
   line-height: 63px;
   letter-spacing: 0.2em;
   max-width: 449px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     line-height: 35.16px;
     font-size: 30px;
     letter-spacing: 0;
@@ -86,7 +90,7 @@ a {
   color: rgba(0, 0, 0, 0.55);
   max-width: 449px;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 2rem;
   }
 }
@@ -109,10 +113,12 @@ a {
 
   background: transparent;
   width: 100%;
+
   &:focus {
     outline: none;
   }
-  @media screen and (max-width: 640px){
+
+  @media screen and (max-width: 640px) {
     min-width: 160px;
     height: 29px;
     width: 200px;
@@ -133,7 +139,7 @@ a {
 
   color: rgba(100, 14, 14, 0.55);
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     display: inline-block;
     //justify-content: center;
   }
@@ -165,11 +171,11 @@ a {
   box-shadow: 0px 0px 20px rgba(4, 29, 68, 0.075);
   border-radius: 15px;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 66px;
     margin-left: 36px;
     margin-right: 36px;
-    padding: 32px 28px ;
+    padding: 32px 28px;
   }
 
   // max-width: 1200px;
@@ -183,7 +189,7 @@ a {
   font-size: 25px;
   line-height: 110%;
   /* identical to box height, or 28px */
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 24px;
     text-align: start;
@@ -198,7 +204,7 @@ a {
   font-size: 20px;
   line-height: 110%;
   /* identical to box height, or 22px */
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 19px;
     text-align: start;
@@ -217,7 +223,7 @@ a {
   /* or 28px */
   opacity: 0.65;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 24px;
     text-align: start;
@@ -239,7 +245,7 @@ a {
   letter-spacing: -0.02em;
 
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 18px;
     text-align: start;
@@ -253,11 +259,11 @@ a {
   filter: drop-shadow(0px 0px 20px rgba(4, 29, 68, 0.0325));
   border-radius: 15px;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 50px;
     margin-left: 36px;
     margin-right: 36px;
-    padding: 32px 28px ;
+    padding: 32px 28px;
   }
 }
 
@@ -268,7 +274,7 @@ a {
   font-size: 35px;
   line-height: 52px;
   letter-spacing: 0.02em;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 18px;
     line-height: 27px;
     text-align: center;
@@ -277,11 +283,11 @@ a {
 
 .about-how-it-works {
   max-width: 1022px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 35px;
     margin-left: 32px;
     margin-right: 32px;
-    padding: 32px 28px ;
+    padding: 32px 28px;
   }
 }
 
@@ -292,7 +298,7 @@ a {
   font-size: 35px;
   line-height: 52px;
   letter-spacing: 0.02em;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 20px;
     line-height: 30px;
 
@@ -310,7 +316,7 @@ a {
 
   letter-spacing: -0.013em;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 14px;
     margin-left: 32px;
     margin-right: 32px;
@@ -327,7 +333,7 @@ a {
   left: -10%;
   border-radius: 50%;
   top: -250px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     top: 0px;
     width: 224%;
     left: -62%;
@@ -346,7 +352,7 @@ a {
   text-align: center;
   letter-spacing: -0.013em;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 48px;
     font-size: 14px;
     line-height: 20px;
@@ -364,7 +370,7 @@ a {
 
   text-align: center;
   letter-spacing: -0.013em;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 20px;
   }
@@ -380,7 +386,7 @@ a {
 
   letter-spacing: 0.013em;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     margin-top: 45px;
   }
@@ -396,7 +402,7 @@ a {
   letter-spacing: 0.07em;
 
   opacity: 0.85;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 12px;
     line-height: 18px;
   }
@@ -412,7 +418,7 @@ a {
 
   letter-spacing: 0.013em;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 29px;
     font-size: 14px;
   }
@@ -444,10 +450,12 @@ a {
   background: white;
   color: black;
   width: 100%;
+
   &:focus {
     outline: none;
   }
-  @media screen and (max-width: 640px){
+
+  @media screen and (max-width: 640px) {
     max-width: 220px;
     min-width: 160px;
     height: 29px;
@@ -466,7 +474,7 @@ a {
   /* identical to box height */
   color: #4AA3E0;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 30px;
     line-height: 45px;
   }
@@ -483,7 +491,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   /* identical to box height */
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 15px;
     line-height: 22px;
   }
@@ -496,7 +504,7 @@ a {
   font-size: 18px;
   line-height: 27px;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -513,7 +521,7 @@ a {
   font-size: 18px;
   line-height: 27px;
   /* identical to box height */
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 28px;
     font-size: 14px;
     line-height: 21px;
@@ -522,14 +530,14 @@ a {
 
 .roadmap-title-border-bottom {
   border-bottom: 1px solid #041D44;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     border-bottom-width: 0px;
   }
 }
 
 .roadmap-title-border-bottom-light {
   border-bottom: 1px solid #4AA3E0;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     border-bottom-width: 0px;
   }
 }
@@ -540,7 +548,7 @@ a {
 
 .roadmap-content-border-right {
   border-right: 1px solid #041D44;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     border-right-width: 0px;
   }
 }
@@ -548,7 +556,7 @@ a {
 
 .roadmap-content-border-right-light {
   border-right: 1px solid #4AA3E0;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     border-right-width: 0px;
   }
 }
@@ -559,7 +567,7 @@ a {
   border-radius: 50%;
   right: -10px;
   top: -10px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     display: none;
   }
 }
@@ -592,7 +600,7 @@ a {
 
 .team-member-profilecard {
   max-width: 585px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     max-width: 200px;
     align-self: center;
   }
@@ -612,7 +620,7 @@ a {
 .time-token-dashed {
   border: 1px dashed #4AA3E0;
   box-sizing: border-box;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     margin-top: 56px;
   }
 }
@@ -623,7 +631,7 @@ a {
   font-weight: normal;
   font-size: 20px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 15px;
     line-height: 29px;
   }
@@ -634,16 +642,24 @@ a {
   opacity: 0.65;
 }
 
-.font-14{
-  @media screen and (max-width: 640px){
+.font-14 {
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 28px;
   }
 }
 
+.font-16 {
+  @media screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+
 @layer utilities {
   @variants hover, focus {
-    .font-20{
+    .font-20 {
       font-size: 20px;
     }
   }
@@ -680,7 +696,7 @@ a {
 
   max-width: 1068px;
 
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 27px;
   }
@@ -694,7 +710,7 @@ a {
   line-height: 200%;
 
   max-width: 1068px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     padding-right: 32px;
     padding-left: 32px;
     margin-top: 53px;
@@ -708,7 +724,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
   }
 
@@ -720,7 +736,7 @@ a {
   font-weight: 600;
   font-size: 25px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 28px;
   }
@@ -732,7 +748,7 @@ a {
   font-weight: 500;
   font-size: 22px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 28px;
   }
@@ -749,7 +765,7 @@ a {
   font-weight: normal;
   font-size: 20px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -768,7 +784,7 @@ a {
   font-size: 25px;
   line-height: 200%;
   /* or 50px */
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 28px;
     align-items: start;
@@ -781,7 +797,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 200%;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     font-size: 14px;
     line-height: 28px;
   }
@@ -812,6 +828,10 @@ a {
 
   text-align: center;
   letter-spacing: -0.013em;
+  @media screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 .terms-title {
@@ -865,6 +885,7 @@ a {
 [data-aos='about-animation'] {
   opacity: 0;
   transition-property: transform, opacity;
+
   &.aos-animate {
     opacity: 1;
   }
@@ -874,7 +895,7 @@ a {
   margin-left: 3.75rem;
 }
 
-.profile-card{
+.profile-card {
   @media screen and (min-width: 1536px) {
     min-width: 600px;
   }
@@ -886,7 +907,7 @@ a {
 
 .about-headline-max-width {
   max-width: 457px;
-  @media screen and (max-width: 640px){
+  @media screen and (max-width: 640px) {
     width: 100%;
     margin-top: 2.5rem;
     padding-left: 2rem;
