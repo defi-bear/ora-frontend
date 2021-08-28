@@ -111,7 +111,9 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
                         <Link href="/team">
                             <div className="py-1.5 p-3 hover:bg-gray-500">Team</div>
                         </Link>
-                        <div className="py-1.5 p-3 hover:bg-gray-500">TIME Token</div>
+                        <Link href="/timetoken">
+                            <div className="py-1.5 p-3 hover:bg-gray-500">TIME Token</div>
+                        </Link>
                         <div className="py-1.5 p-3 hover:bg-gray-500">Airdrop</div>
                         <div className="py-1.5 p-3 hover:bg-gray-500">FAQ</div>
                         <div className="bg-gray-50" style={{height:1}}></div>

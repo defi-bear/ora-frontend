@@ -612,6 +612,9 @@ a {
 .time-token-dashed {
   border: 1px dashed #4AA3E0;
   box-sizing: border-box;
+  @media screen and (max-width: 640px){
+    margin-top: 56px;
+  }
 }
 
 .time-token-percent {
@@ -620,10 +623,30 @@ a {
   font-weight: normal;
   font-size: 20px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 15px;
+    line-height: 29px;
+  }
+
 }
 
 .opacity-65 {
   opacity: 0.65;
+}
+
+.font-14{
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+@layer utilities {
+  @variants hover, focus {
+    .font-20{
+      font-size: 20px;
+    }
+  }
 }
 
 .time-token-tick {
@@ -666,6 +689,12 @@ a {
   line-height: 200%;
 
   max-width: 1068px;
+  @media screen and (max-width: 640px){
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-top: 53px;
+    padding-bottom: 64px;
+  }
 }
 
 .time-token-notes-bold {
@@ -674,6 +703,10 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 200%;
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+  }
+
 }
 
 .time-token-free {

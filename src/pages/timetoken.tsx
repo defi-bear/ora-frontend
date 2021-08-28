@@ -21,7 +21,7 @@ const TimeToken: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Header height={0} onRegisterClick={onRegisterClick} />
-      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 sm:mt-28'>
+      <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28 px-8 sm:px-0'>
         <div className='flex justify-center items-center'>
           <div className='roadmap-headline'>
             TIME<span className='about-text-blue'>&nbsp;Token</span>
@@ -29,12 +29,14 @@ const TimeToken: NextPage = () => {
           <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
-      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mt-10 justify-between sm:mb-16'>
-        <div className='flex-1 flex items-center'>
+      <div className='flex 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6  sm:mt-10 px-10 sm:px-0 justify-between sm:mb-16'>
+        <div className='flex-1 flex items-center hidden sm:block'>
           <Image src={TimeTokenImage} alt='Time Token Image' />
         </div>
         <div className='flex flex-col flex-1 time-token-dashed justify-center items-center 2xl:ml-56 sm:pt-10'>
-          <Image src={LogoX} alt='LogoX Image' />
+          <div className="w-28 sm:w-40">
+            <Image src={LogoX} alt='LogoX Image'/>
+          </div>
           <div className='flex flex-col time-token-percent sm:p-10'>
             <div>
               <span className='opacity-65'>
@@ -121,9 +123,9 @@ const TimeToken: NextPage = () => {
         <div className='about-text-blue time-token-notes-bold'>
           Additional notes:
         </div>
-        <ul className='list-disc list-outside sm:ml-6'>
+        <ul className='list-disc list-inside sm:list-outside sm:ml-6 '>
           <li>
-            <span className='opacity-65'>
+            <span className='opacity-65 font-14'>
               The supply is infinite since TIME is a mintable ERC-20 token, but inflation only occurs when data is collected, as explained in the&nbsp;
               <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
                 <span className='about-text-blue-light time-token-whitepaper time-token-notes-bold'>
@@ -136,27 +138,27 @@ const TimeToken: NextPage = () => {
             </span>
           </li>
           <li>
-            <span className='opacity-65 relative'>
+            <span className='opacity-65 relative font-14'>
               Inflation is directly correlated to registrations, data creation and is managed with smart contracts.
             </span>
           </li>
           <li>
-            <span className='opacity-65 relative'>
+            <span className='opacity-65 relative font-14'>
               <span className='italic'>Staking</span>&nbsp;: 4:1 staking rewards to data payments in year one, 3:1 ratio in year two, 2:1 ratio in year three and a 1:1 ratio moving forward from year four.  Example: 1,000 TIME provided to users providing data, 4,000 TIME provided to individuals staking in year 1 as explained in the&nbsp;<a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'><span className='about-text-blue-light time-token-notes-bold'>whitepaper<span className='ml-1'><Image src={DownloadSvg} alt='Download Image' /></span></span></a>.
             </span>
           </li>
           <li>
-            <span className='opacity-65 relative'>
+            <span className='opacity-65 relative font-14'>
               5% of Ora’s revenue will eventually go towards buying and burning TIME from existence to create a complete circle utility for data providers and TIME holders.
             </span>
           </li>
           <li>
-            <span className='opacity-65 relative'>
+            <span className='opacity-65 relative font-14'>
               Pre-sale and team tokens are vested.
             </span>
           </li>
           <li>
-            <span className='opacity-65 relative'>
+            <span className='opacity-65 relative font-14'>
               With the constant payment of TIME to users for data and eventually attention, despite the staking mechanism, the TIME token will become <span className='time-token-notes-bold' style={{fontStyle: 'italic !important'}}>more decentralized with each passing year.</span>
             </span>
           </li>
