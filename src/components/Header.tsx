@@ -1,5 +1,6 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import Image from 'next/image';
+import {Squash as Hamburger} from 'hamburger-react'
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 import {useMediaQuery} from "react-responsive";
@@ -18,9 +19,9 @@ interface HeaderProps {
 export default function Header({height = 0, onRegisterClick}: HeaderProps) {
 
     const {asPath} = useRouter()
-    const isNotMobile = useMediaQuery({ query: '(min-width: 640px)' })
-    const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
-    const [isShowMenu, setShowMenu] =useState(false);
+    const isNotMobile = useMediaQuery({query: '(min-width: 640px)'})
+    const isMobile = useMediaQuery({query: '(max-width: 640px)'});
+    const [isShowMenu, setShowMenu] = useState(false);
 
     function getStyle() {
         let styles = {};
@@ -91,37 +92,75 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
             }
 
             {isMobile &&
-              <div className="flex  flex-col w-full header-back">
-                     <div className="flex ">
-                         <div className="ml-auto py-3 pr-3"
-                        onClick={() => setShowMenu(!isShowMenu)}>
-                            <svg viewBox="0 0 100 80" width="27" height="23" fill="white">
-                                <rect width="100" height="12"></rect>
-                                <rect y="30" width="100" height="12"></rect>
-                                <rect y="60" width="100" height="12"></rect>
-                            </svg>
-                        </div>
-                    </div>
-                    <div className="h-1 bg-gray-50"></div>
-                    <div className="flex flex-col text-white" style={{height: isShowMenu ? "auto" :0, overflow: 'hidden'}}>
-                        <div className="py-1.5 p-3 hover:bg-gray-500">Whitepaper</div>
-                        <Link href="/roadmap">
-                            <div className="py-1.5 p-3 hover:bg-gray-500 ">Roadmap</div>
-                        </Link>
-                        <Link href="/team">
-                            <div className="py-1.5 p-3 hover:bg-gray-500">Team</div>
-                        </Link>
-                        <Link href="/timetoken">
-                            <div className="py-1.5 p-3 hover:bg-gray-500">TIME Token</div>
-                        </Link>
-                        <div className="py-1.5 p-3 hover:bg-gray-500">Airdrop</div>
-                        <div className="py-1.5 p-3 hover:bg-gray-500">FAQ</div>
-                        <div className="bg-gray-50" style={{height:1}}></div>
-                        <div className="py-1.5 p-3 hover:bg-gray-500">Registration</div>
+            <div
+                className={isShowMenu ? "flex  flex-col w-full header-white-back" : "flex  flex-col w-full header-back"}>
+                <div className="flex ">
+                    <div className="ml-auto py-3 pr-3"
+                        // onClick={() => setShowMenu(!isShowMenu)}
+                    >
+                        <Hamburger rounded color={isShowMenu ? "#041D44" : "#FFFFFF"} label="Show Menu" hideOutline={false} onToggle={toggled => {
+                            if (toggled) {
+                                setShowMenu(true)
+                                // open a menu
+                            } else {
+                                // close a menu
+                                setShowMenu(false)
+                            }
+                        }}/>
                     </div>
                 </div>
-            }
+                {/*<div className="h-1 bg-gray-50"></div>*/}
+                <div className="flex flex-col about-text-blue   font-25  header-animation"
+                     style={{height: isShowMenu ? "100vh" : 0, overflow: 'hidden'}}>
+                    <div className="flex items-center py-2.5  mt-24 self-center">
+                        <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
+                            <div className="flex items-center    self-center">
+                                <div className='mr-1'>
+                                    Whitepaper
+                                </div>
+                                <WhitePaperSvg width={16} height={16} fill={"#041D44"}/>
+                            </div>
 
+                        </a>
+                    </div>
+
+
+                    <Link href="/roadmap">
+                        <div className="py-2.5  self-center">Roadmap</div>
+                    </Link>
+                    <Link href="/team">
+                        <div className="py-2.5   self-center">Team</div>
+                    </Link>
+                    <Link href="/timetoken">
+                        <div className="py-2.5   self-center">TIME Token</div>
+                    </Link>
+                    <Link href="/airdrop">
+                        <div className="py-2.5   self-center">Airdrop</div>
+
+                    </Link>
+                    <Link href="/faq">
+                        <div className="py-2.5   self-center">FAQ</div>
+                    </Link>
+                    {/*<div className="bg-gray-50" style={{height: 1}}></div>*/}
+                    {/*<div className="py-2.5   hover:bg-gray-500 self-center">Registration</div>*/}
+                    {asPath !== '/' ? (
+                        <div className="py-2.5    self-center text-white font-25">
+                            <a href='/' rel='noreferrer'>
+                                <RegButton width={212} height={50} title={'Registration'}/>
+                            </a>
+                        </div>
+
+                    ) : (
+                        <div className="py-2.5    self-center text-white font-25" onClick={(e) => {
+                            if (onRegisterClick) onRegisterClick();
+                        }}>
+                            <RegButton width={212} height={50} title={'Registration'}/>
+                        </div>
+                    )}
+
+                </div>
+            </div>
+            }
 
         </div>
     );

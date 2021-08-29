@@ -38,6 +38,9 @@ a {
 .header-back {
   background-color: #041D44;
 }
+.header-white-back{
+  background-color: #E5E5E5;
+}
 
 .header-kanit {
   font-family: Kanit;
@@ -655,6 +658,21 @@ a {
     line-height: 23px;
   }
 }
+
+.header-animation{
+  transition: height 0.5s;
+}
+
+.font-25 {
+  @media screen and (max-width: 640px) {
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 500;
+  }
+}
+
 
 
 @layer utilities {
