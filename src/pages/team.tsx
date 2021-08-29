@@ -404,7 +404,7 @@ const Team: NextPage = () => {
           <div className='roadmap-headline'>
             Team<span className='about-text-blue'>&nbsp;Members</span>
           </div>
-          <div className='sm:ml-5 roadmap-headlin e-line flex-1 sm:mt-2' />
+          <div className='sm:ml-5 roadmap-headline-line flex-1 sm:mt-2' />
         </div>
       </div>
       <div className='flex flex-col sm:flex-row sm:mt-10 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 py-16 sm:py-0'>
