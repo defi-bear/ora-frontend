@@ -6,6 +6,7 @@ import Logo2 from '../assets/svg/logo2.svg';
 import Reddit from '../assets/svg/reddit.svg';
 import Twitter from '../assets/svg/twitter.svg';
 import Telegram from '../assets/svg/telegram.svg';
+import MediumImg from "../assets/svg/medium.svg";
 import LogoImg2 from "../assets/png/logo2.png";
 import WhitePaperSvg from './WhitePaperSvg';
 
@@ -24,7 +25,7 @@ export default function Footer({ height=0 } : FooterProps) {
     return styles;
   }
   return (
-    <div className='z-60 header-back header-kanit' style={getStyle()}>
+    <div className='z-20 header-back header-kanit' style={getStyle()}>
       <div className='flex flex-col sm:flex-row items-center text-white pt-10 sm:pt-0 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between sm:pt-5 '>
         <a href='/' rel='noreferrer'>
 
@@ -44,6 +45,11 @@ export default function Footer({ height=0 } : FooterProps) {
               Ora on Social Media
             </div>
             <div className='flex justify-end self-center sm:self-auto'>
+              <div className='mr-2'>
+                <a href='https://ora-time.medium.com/' target='_blank' rel='noreferrer'>
+                  <Image src={MediumImg} alt='Medium' />
+                </a>
+              </div>
               <div className='mr-2'>
                 <a href='https://www.reddit.com/user/Ora_Time' target='_blank' rel='noreferrer'>
                   <Image src={Reddit} alt='Reddit' />
