@@ -2,11 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image';
 
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import LogoX from '../assets/svg/logox.svg';
-import TimeTokenImage from '../assets/svg/03.svg';
+import TimeTokenImage from '../assets/svg/time_token.svg';
 import DownloadSvg from '../assets/svg/download.svg';
 // import WhitePaperSvg from '../components/WhitePaperSvg';
 
@@ -16,10 +17,22 @@ const TimeToken: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+        <script
+            async
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+            }}
+        />
         <title>Ora - TIME Token</title>
-        <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
+        <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy" />
         <link rel="icon" href="/logo.png" />
       </Head>
+
       <Header height={0} onRegisterClick={onRegisterClick} />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28 px-8 sm:px-0'>
         <div className='flex justify-center items-center'>
@@ -101,6 +114,19 @@ const TimeToken: NextPage = () => {
               </span>
               <span className='opacity-65'>
                 Airdrop To Early Registrations
+              </span>
+            </div>
+            <div className='flex time-token-percent items-center'>
+              <span className='time-token-tick time-token-crypto'>
+              </span>
+              <span className='opacity-65'>
+                &nbsp;5
+              </span>
+              <span className='about-text-blue'>
+                %&nbsp;
+              </span>
+              <span className='opacity-65'>
+                Crypto Twitter Marketing
               </span>
             </div>
             <div className='flex time-token-percent items-center'>

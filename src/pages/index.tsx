@@ -105,10 +105,22 @@ const Home: NextPage = () => {
         <div className='flex flex-col overflow-hidden'>
             <ToastContainer position={type === 1 ? 'bottom' : 'top'} align={'right'}/>
             <Head>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+                <script
+                    async
+                    dangerouslySetInnerHTML={{
+                        __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+                    }}
+                />
                 <title>Ora</title>
-                <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry"/>
+                <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy"/>
                 <link rel="icon" href="/logo.png"/>
             </Head>
+
             <Header height={0} onRegisterClick={onRegisterClick}/>
             <div className='flex lg:mx-auto md:mx-10 mt-16 flex-col-reverse sm:flex-row'>
                 <div className='flex flex-col flex-1 sm:mt-28 about-headline-max-width 2xl:mr-20 xl:mr-10'>

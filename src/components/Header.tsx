@@ -93,7 +93,7 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
 
             {isMobile &&
             <div
-                className={isShowMenu ? "flex  flex-col w-full header-white-back" : "flex  flex-col w-full header-back"}>
+                className={isShowMenu ? " flex  flex-col w-full header-white-back" : " flex  flex-col w-full header-back"}>
                 <div className="flex ">
                     <div className="ml-auto py-3 pr-3"
                         // onClick={() => setShowMenu(!isShowMenu)}

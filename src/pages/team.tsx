@@ -394,10 +394,22 @@ const Team: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+        <script
+            async
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+            }}
+        />
         <title>Ora - Team</title>
-        <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
+        <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy" />
         <link rel="icon" href="/logo.png" />
       </Head>
+
       <Header height={0} onRegisterClick={onRegisterClick} />
       <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28 px-8 sm:px-0'>
         <div className='flex justify-center items-center'>
@@ -431,7 +443,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'VP Business Development'} description={team[5]}/>
         </div>
       </div>
-      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
+      <div className='flex flex-col sm:flex-row mt-12 sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar07'} name={'Dylan Payne'} position={'VP Operations'} description={team[6]}/>
         </div>
@@ -460,7 +472,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar11'} name={'Dr. Lin Gao Ph.D. - Advisor'} position={'Data Scientist'} description={team[10]}/>
         </div>
       </div>
-      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
+      <div className='flex flex-col sm:flex-row mt-12 sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar12'} name={'Matthew Burgoyne - Advisor'} position={'Canadian Securities and Crypto Law'} description={team[11]}/>
         </div>
@@ -468,7 +480,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar13'} name={'Adriaan Brink - Advisor'} position={'Crypto and Gaming'} description={team[12]}/>
         </div>
       </div>
-      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
+      <div className='flex flex-col sm:flex-row mt-12 sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar14'} name={'Jaap Harmsma - Advisor'} position={'Blockchain'} description={team[13]}/>
         </div>
@@ -476,14 +488,19 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar15'} name={'Domenic Alfieri - Advisor'} position={'Regulatory / Governance'} description={team[14]}/>
         </div>
       </div>
-      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40 py-28 sm:py-0'>
-        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
+      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 justify-center items-center sm:mb-40 pb-48 sm:pb-0 sm:py-0'>
+        <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
           <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>
         </div>
-        <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
-          <ProfileCard avatar={'avatar17'} name={'Tunez'} position={'Crypto Social Media Influencer and Marketing'} description={team[16]}/>
-        </div>
       </div>
+      {/*<div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40 py-28 sm:py-0'>*/}
+      {/*  <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>*/}
+      {/*    <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>*/}
+      {/*  </div>*/}
+      {/*  <div className='flex-1 team-member-profilecard mt-12 sm:mt-0 hidden sm:block'>*/}
+      {/*    <ProfileCard avatar={'avatar17'} name={'Tunez'} position={'Crypto Social Media Influencer and Marketing'} description={team[16]}/>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
       <Footer height={0} />
     </div>
   )

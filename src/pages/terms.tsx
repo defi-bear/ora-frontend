@@ -8,10 +8,22 @@ const Terms: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+        <script
+            async
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+            }}
+        />
         <title>Ora - Terms of Service</title>
-        <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
+        <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy" />
         <link rel="icon" href="/logo.png" />
       </Head>
+
       <div className='sm:mx-12 sm:mt-10 flex justify-end cursor-pointer'>
         <a href='/' rel='noreferrer'>
           <Image src={LogoS} alt='LogoS' />
@@ -204,7 +216,7 @@ const Terms: NextPage = () => {
             (d) You understand the restrictions and risks associated with the creation of TIME by the Smart Contract System as set forth herein, and acknowledge and assume all such risks;
             <br />
             <br />
-            (e) You understand, acknowledge and assume the risks associated with the purchase, holding and use of TIME in connection with the Services and Ecosystem; 
+            (e) You understand, acknowledge and assume the risks associated with the purchase, holding and use of TIME in connection with the Services and Ecosystem;
             <br />
             <br />
             (f) You understand that receiving TIME only confers the right to grant Ora non-exclusive license to collect, store and sell Meta Data that you provide and to access the Ecosystem, and confer no other rights of any form with respect to the Ecosystem or Ora or its corporate affiliates, including, but not limited to, any voting, distribution, redemption, liquidation, proprietary (including all forms of intellectual property), or other financial or legal rights;
@@ -222,7 +234,7 @@ const Terms: NextPage = () => {
             (j) If you are receiving TIME on behalf of any entity, you are authorized to accept these Terms on such entity’s behalf and that such entity will be responsible for breach of these Terms by you or any other employee or agent of such entity (references to “you” in these Terms refer to you and such entity, jointly); You are not resident or domiciled in New York State or receiving TIME from a location in New York State;
             <br />
             <br />
-            (k) You are not (i) a citizen or resident of a geographic area in which access to or use of the Services is prohibited by applicable law, decree, regulation, treaty, or administrative act, (ii) a citizen or resident of, or located in, a geographic area that is subject to U.S. or other sovereign country sanctions or embargoes, or (iii) an individual, or an individual employed by or associated with an entity, identified on the U.S. Department of Commerce’s Denied Persons or Entity List, the U.S. Department of Treasury’s Specially Designated Nationals or Blocked Persons Lists, or the U.S. Department of State’s Debarred Parties List.  You agree that if your country of residence or other circumstances change such that the above representations are no longer accurate, that you will immediately cease using the Services. 
+            (k) You are not (i) a citizen or resident of a geographic area in which access to or use of the Services is prohibited by applicable law, decree, regulation, treaty, or administrative act, (ii) a citizen or resident of, or located in, a geographic area that is subject to U.S. or other sovereign country sanctions or embargoes, or (iii) an individual, or an individual employed by or associated with an entity, identified on the U.S. Department of Commerce’s Denied Persons or Entity List, the U.S. Department of Treasury’s Specially Designated Nationals or Blocked Persons Lists, or the U.S. Department of State’s Debarred Parties List.  You agree that if your country of residence or other circumstances change such that the above representations are no longer accurate, that you will immediately cease using the Services.
             <br />
             <br />
             (l) If you are registering to use the Services on behalf of a legal entity, you further represent and warrant that (i) such legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization, and (ii) you are duly authorized by such legal entity to act on its behalf; To the fullest extent permitted by applicable law, you will indemnify, defend and hold harmless Ora and our respective past, present and future employees, officers, directors, contractors, consultants, equity holders, suppliers, vendors, service providers, parent companies, subsidiaries, affiliates, agents, representatives, predecessors, successors and assigns (the “</span><span className='terms-description-bold-500'>Ora Parties</span><span className='opacity-65'>”) from and against all claims, demands, actions, damages, losses, costs and expenses (including attorneys’ fees) that arise from or relate to: (A) your receiving or use of TIME, (B) your responsibilities or obligations under these Terms, (C) your violation of these Terms, or (D) your violation of any rights of any other person or entity.

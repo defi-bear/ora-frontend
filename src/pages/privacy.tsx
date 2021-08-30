@@ -9,10 +9,22 @@ const Terms: NextPage = () => {
   return (
     <div className='flex flex-col'>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+        <script
+            async
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+            }}
+        />
         <title>Ora - Privacy Policy</title>
-        <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry" />
+        <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy" />
         <link rel="icon" href="/logo.png" />
       </Head>
+
       <div className='sm:mx-12 sm:mt-10 flex justify-end cursor-pointer'>
         <a href='/' rel='noreferrer'>
           <Image src={LogoS} alt='LogoS' />
@@ -221,7 +233,7 @@ const Terms: NextPage = () => {
           <br />
           <br />
           <span className='terms-subtitle'>
-            For purposes of this Privacy Policy, “Personal Information” does not include:- 
+            For purposes of this Privacy Policy, “Personal Information” does not include:-
           </span>
           <br />
           <br />
@@ -308,13 +320,13 @@ const Terms: NextPage = () => {
           </span>
           <br />
           <span className='opacity-65'>
-            Ora cooperates with government and law enforcement officials and private parties to enforce and comply with the law.  Ora may disclose Personal Information and anyother information about you to government or law enforcement officials or private parties if, in its discretion, it believes it is necessary or appropriate for any of the following reasons: 
+            Ora cooperates with government and law enforcement officials and private parties to enforce and comply with the law.  Ora may disclose Personal Information and anyother information about you to government or law enforcement officials or private parties if, in its discretion, it believes it is necessary or appropriate for any of the following reasons:
             <br />
-            (a) to respond to legal requests (including court orders and subpoenas); 
+            (a) to respond to legal requests (including court orders and subpoenas);
             <br />
-            (b) to protect the safety, property, or rights of Ora, or any third-party; 
+            (b) to protect the safety, property, or rights of Ora, or any third-party;
             <br />
-            (c) to prevent or stop any illegal, unethical, or legally actionable activity; or 
+            (c) to prevent or stop any illegal, unethical, or legally actionable activity; or
             <br />
             (d) to comply with the law.
           </span>
@@ -343,7 +355,7 @@ const Terms: NextPage = () => {
           </span>
           <br />
           <span className='opacity-65'>
-            Services may contain links to other Web Services, or allow others to send you such links.  A link to a third-party's Web Services does not mean that Ora or the User endorses it or that we are affiliated with it.  Ora dos not exercise control over third-party Web Services.  You access such third-party Web Services or content at your own risk.  You should always read the privacy policy of a third-party Web Services before providing any information to the Web Services. 
+            Services may contain links to other Web Services, or allow others to send you such links.  A link to a third-party's Web Services does not mean that Ora or the User endorses it or that we are affiliated with it.  Ora dos not exercise control over third-party Web Services.  You access such third-party Web Services or content at your own risk.  You should always read the privacy policy of a third-party Web Services before providing any information to the Web Services.
           </span>
           <br />
           <br />
@@ -416,7 +428,7 @@ const Terms: NextPage = () => {
           </span>
           <br />
           <span className='opacity-65 italic'>
-            To exercise the access, data portability, and deletion rights described above, pleasesubmit a verifiable consumer request to Ora by emailing </span><a href='mailto:info@ora.app' rel='noreferrer'><span className='about-text-blue-light italic terms-description-bold-600'>info@ora.app</span></a><span className='opacity-65 italic'> directly.Only you, or someone legally authorized by you to act on your behalf, may make a verifiable consumer request related to your personal information.  You may also make a verifiable consumer request on behalf of your minor child.You may only make a verifiable consumer request for access or data portability twice within a 12-month period.  The verifiable consumer request must: Provide sufficient information that allows Ora to reasonably verify you are the person about whom Ora collected personal information or an authorized representative.Describe your request with sufficient detail that allows Ora to properly understand, evaluate and respond to it.Ora cannot respond to your request or provide you with personal information if it cannot verify your identity or authority to make the request and confirm the personal information relates to you.  Making a verifiable consumer request does not require you to create an account with Ora.  Ora will only use personal information provided in a verifiable consumer request to verify the requestor's identity or authority to make the request. 
+            To exercise the access, data portability, and deletion rights described above, pleasesubmit a verifiable consumer request to Ora by emailing </span><a href='mailto:info@ora.app' rel='noreferrer'><span className='about-text-blue-light italic terms-description-bold-600'>info@ora.app</span></a><span className='opacity-65 italic'> directly.Only you, or someone legally authorized by you to act on your behalf, may make a verifiable consumer request related to your personal information.  You may also make a verifiable consumer request on behalf of your minor child.You may only make a verifiable consumer request for access or data portability twice within a 12-month period.  The verifiable consumer request must: Provide sufficient information that allows Ora to reasonably verify you are the person about whom Ora collected personal information or an authorized representative.Describe your request with sufficient detail that allows Ora to properly understand, evaluate and respond to it.Ora cannot respond to your request or provide you with personal information if it cannot verify your identity or authority to make the request and confirm the personal information relates to you.  Making a verifiable consumer request does not require you to create an account with Ora.  Ora will only use personal information provided in a verifiable consumer request to verify the requestor's identity or authority to make the request.
           </span>
           <br />
           <br />

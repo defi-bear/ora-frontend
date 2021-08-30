@@ -12,10 +12,22 @@ const Roadmap: NextPage = () => {
     return (
         <div className='flex flex-col'>
             <Head>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-10DM1PRJWR"></script>
+                <script
+                    async
+                    dangerouslySetInnerHTML={{
+                        __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-10DM1PRJWR');`
+                    }}
+                />
                 <title>Ora - Roadmap</title>
-                <meta name="description" content="Ora is on a mission to re-invent and modernize the data industry"/>
+                <meta name="description" content="Powered by Ora’s utility token TIME, Ora offers users the most lucrative financial rewards for their data while maintaining complete privacy"/>
                 <link rel="icon" href="/logo.png"/>
             </Head>
+
             <Header height={0} onRegisterClick={onRegisterClick}/>
             <div className='2xl:mx-96 xl:mx-36 lg:mx-16 md:mx-6 mt-24 sm:mt-28 px-8 sm:px-0'>
                 <div className='flex justify-center items-center'>

@@ -24,7 +24,7 @@ export default function Footer({ height=0 } : FooterProps) {
     return styles;
   }
   return (
-    <div className='z-50 header-back header-kanit' style={getStyle()}>
+    <div className='z-60 header-back header-kanit' style={getStyle()}>
       <div className='flex flex-col sm:flex-row items-center text-white pt-10 sm:pt-0 2xl:px-60 xl:px-36 lg:px-16 md:px-8 sm:justify-between sm:pt-5 '>
         <a href='/' rel='noreferrer'>
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="414px" height="460px" viewBox="0 0 414 460" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="svg">
+    <path d="M0 0L414 0L414 460L0 460L0 0Z" id="Background" fill="none" stroke="none" />
+    <path d="M200.03 195.031C200.03 84.557 113.998 14 41.998 0L0 195.031L0 395.061C110.474 395.061 200.03 305.504 200.03 195.031L200.03 195.031Z" transform="translate(213.502 63)" id="Shape" fill="#041D44" stroke="none" />
+    <path d="M200.031 313.258L200.031 110.991L200.029 110.991L35.1257 0C12.9764 32.196 0 71.194 0 113.228C0.000673537 223.702 89.5569 313.258 200.031 313.258L200.031 313.258Z" transform="translate(0 146.408)" id="Shape" fill="#3B84CC" stroke="none" />
+    <path d="M41.02 197.794L41.022 197.794L41.022 0C26.961 0 13.241 1.45417 0 4.21433L41.02 197.794L41.02 197.794Z" transform="translate(147.986 0)" id="Shape" fill="#848999" stroke="none" />
+    <path d="M0 197.801L0.0019989 197.802L46.373 5.5204C32.704 2.2239 19.025 0.4209 5.507 0L0 197.801L0 197.801Z" transform="translate(205.308 28.1482)" id="Shape" fill="#536EC2" stroke="none" />
+    <path d="M0 82.588L164.902 193.579L123.883 0C72.6747 10.6762 28.6543 40.9349 0 82.588L0 82.588Z" transform="translate(17.5645 37.056)" id="Shape" fill="#2E3192" stroke="none" />
+  </g>
+</svg>
