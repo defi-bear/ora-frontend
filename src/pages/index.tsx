@@ -320,14 +320,14 @@ const Home: NextPage = () => {
                     <div className='about-preregister text-white lg:mt-16 md:mt-24'>
                         Pre-register below to be one of the lucky individuals to receive the <Link href='/airdrop'><span
                         className='underline cursor-pointer'>Ora Airdrop!</span></Link>
-                        {isMobile && <span className='about-totalsupply text-white'>
-                        &nbsp;&nbsp;Our is using 5% of the total TIME supply will be used for an airdrop to early users!
-                    </span>}
+                        <span className='about-totalsupply text-white sm:hidden'>
+                        &nbsp;&nbsp; Ora is using 5% of the total supply for an airdrop to early users!
+                    </span>
                     </div>
-                    {isNotMobile &&
-                    <div className='about-totalsupply text-white'>
-                        Our is using 5% of the total TIME supply will be used for an airdrop to early users!
-                    </div>}
+
+                    <div className='about-totalsupply text-white hidden sm:block'>
+                        Ora is using 5% of the total TIME supply to airdrop to early users!
+                    </div>
 
                     <div className='flex justify-center mt-4 items-center sm:mt-6'>
                         <input type='text' className='about-preregister-email-input px-4 py-2'
