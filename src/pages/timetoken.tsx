@@ -133,7 +133,7 @@ const TimeToken: NextPage = () => {
               <span className='time-token-tick time-token-tick-offering'>
               </span>
               <span className='opacity-65'>
-                &nbsp;45
+                &nbsp;40
               </span>
               <span className='about-text-blue'>
                 %&nbsp;
