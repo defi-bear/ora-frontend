@@ -76,10 +76,11 @@ const Home: NextPage = () => {
             return;
         }
         const res = await fetch(
-            'https://oratech-back.vercel.app/api/emails/add',
+            // 'https://oratech-back.vercel.app/api/emails/add',
+            'https://oratech.uc.r.appspot.com/emails',
             {
                 body: JSON.stringify({
-                    user: email
+                    email: email
                 }),
                 headers: {
                     'Content-Type': 'application/json',
@@ -87,8 +88,8 @@ const Home: NextPage = () => {
                 method: 'POST',
             }
         ).then(async (re: any) => {
-            const result = await re.json()
-            // console.log(result);
+            // const result = await re.json()
+            // console.log(re);
             toast.notify(`Congrats on registering!`, {
                 duration: 5,
                 type: 'success',
