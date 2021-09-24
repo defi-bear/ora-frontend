@@ -488,7 +488,7 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>
         </div>
         <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
-          <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'Advisor'} description={team[5]}/>
+          <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'Advisor - Business Development'} description={team[5]}/>
         </div>
       </div>
       {/*<div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40 py-28 sm:py-0'>*/}
