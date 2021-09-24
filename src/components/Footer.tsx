@@ -9,7 +9,7 @@ import Telegram from '../assets/svg/telegram.svg';
 import MediumImg from "../assets/svg/medium.svg";
 import LogoImg2 from "../assets/png/logo2.png";
 import WhitePaperSvg from './WhitePaperSvg';
-import Linkedin from '../assets/svg/Linkedin.svg';
+import Linkedin from '../assets/svg/linkedin.svg';
 
 interface FooterProps {
   height: number
