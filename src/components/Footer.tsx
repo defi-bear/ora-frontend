@@ -9,6 +9,7 @@ import Telegram from '../assets/svg/telegram.svg';
 import MediumImg from "../assets/svg/medium.svg";
 import LogoImg2 from "../assets/png/logo2.png";
 import WhitePaperSvg from './WhitePaperSvg';
+import Linkedin from '../assets/svg/Linkedin.svg';
 
 interface FooterProps {
   height: number
@@ -60,9 +61,14 @@ export default function Footer({ height=0 } : FooterProps) {
                   <Image src={Twitter} alt='Twitter' />
                 </a>
               </div>
-              <div>
+              <div className='mr-2'>
                 <a href='https://t.me/joinchat/Sd0c9GeJoNdiNzZh' target='_blank' rel='noreferrer'>
                   <Image src={Telegram} alt='Telegram' />
+                </a>
+              </div>
+              <div>
+                <a href='https://www.linkedin.com/company/ora-technology-holdings-inc/' target='_blank' rel='noreferrer'>
+                  <Image width="33px" height="33px" src={Linkedin} alt='Linkedin' />
                 </a>
               </div>
             </div>
