@@ -440,18 +440,13 @@ const Team: NextPage = () => {
           <ProfileCard avatar={'avatar05'} name={'Jim Andriopoulos CPA, CA, MBA'} position={'CFO'} description={team[4]}/>
         </div>
         <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
-          <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'VP Business Development'} description={team[5]}/>
+          <ProfileCard avatar={'avatar07'} name={'Dylan Payne'} position={'VP Operations'} description={team[6]}/>
         </div>
       </div>
       <div className='flex flex-col sm:flex-row mt-12 sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6'>
         <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
-          <ProfileCard avatar={'avatar07'} name={'Dylan Payne'} position={'VP Operations'} description={team[6]}/>
-        </div>
-        <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
           <ProfileCard avatar={'avatar08'} name={'Donald Thanate'} position={'Design'} description={team[7]}/>
         </div>
-      </div>
-      <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 justify-center items-center'>
         <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
           <ProfileCard avatar={'avatar09'} name={'Shing Ho Tan'} position={'Blockchain & Full Stack Developer'} description={team[8]}/>
         </div>
@@ -489,8 +484,11 @@ const Team: NextPage = () => {
         </div>
       </div>
       <div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 justify-center items-center sm:mb-40 pb-48 sm:pb-0 sm:py-0'>
-        <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
+        <div className='flex-1 team-member-profilecard sm:mr-10 lg:mr-32'>
           <ProfileCard avatar={'avatar16'} name={'Claudio Martellacci CPA, CA, CBV - Advisor'} position={'M&A'} description={team[15]}/>
+        </div>
+        <div className='flex-1 team-member-profilecard mt-12 sm:mt-0'>
+          <ProfileCard avatar={'avatar06'} name={'Steve Colivas'} position={'VP Business Development'} description={team[5]}/>
         </div>
       </div>
       {/*<div className='flex flex-col sm:flex-row sm:mt-20 2xl:mx-auto xl:mx-36 lg:mx-16 md:mx-6 sm:mb-40 py-28 sm:py-0'>*/}
