@@ -46,7 +46,7 @@ const TimeToken: NextPage = () => {
         <div className='flex-1 flex items-center hidden sm:block'>
           <Image src={TimeTokenImage} alt='Time Token Image' />
         </div>
-        <div className='flex flex-col flex-1 time-token-dashed justify-center items-center 2xl:ml-56 sm:pt-10'>
+        <div className='flex flex-col flex-1 time-token-dashed justify-center items-center 2xl:ml-56 py-5 sm:pt-10'>
           <div className="w-28 sm:w-40">
             <Image src={LogoX} alt='LogoX Image'/>
           </div>
