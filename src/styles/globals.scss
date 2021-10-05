@@ -605,7 +605,9 @@ a {
 .team-member-profilecard {
   max-width: 585px;
   @media screen and (max-width: 640px) {
-    max-width: 200px;
+    // max-width: 200px;
+    padding-left: 40px;
+    padding-right: 30px;
     align-self: center;
   }
 }
