@@ -17,7 +17,7 @@ import Footer from '../components/Footer'
 import AboutImage1 from '../assets/svg/0101.svg';
 import AboutImage2 from '../assets/svg/0102.svg';
 import EcoSystemImage from '../assets/svg/02.svg';
-import MobileEcoSystemImage from "../assets/png/02_mobile.png";
+import MobileEcoSystemImage from "../assets/svg/02_mobile.svg";
 import TickSvg from '../components/TickSvg';
 import WhitePaperSvg from '../components/WhitePaperSvg';
 
@@ -125,14 +125,14 @@ const Home: NextPage = () => {
             <Header height={0} onRegisterClick={onRegisterClick}/>
             <div className='flex lg:mx-auto md:mx-10 mt-16 flex-col-reverse sm:flex-row'>
                 <div className='flex flex-col flex-1 sm:mt-28 about-headline-max-width 2xl:mr-20 xl:mr-10'>
-                    <div className='flex about-headline-roboto justify-between opacity-80 about-text-blue'>
+                    <div className='flex about-headline-roboto justify-center sm:justify-between opacity-80 about-text-blue'>
                         <div>
                             The
                         </div>
-                        <div>
+                        <div className="mx-3 sm:mx-0">
                             {piece}
                         </div>
-                        <div>
+                        <div className="mr-3 sm:mr-0">
                             of
                         </div>
                         <div className="sm:hidden" >Data</div>
