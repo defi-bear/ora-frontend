@@ -112,7 +112,10 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
                 {/*<div className="h-1 bg-gray-50"></div>*/}
                 <div className="flex flex-col about-text-blue   font-25  header-animation"
                      style={{height: isShowMenu ? "100vh" : 0, overflow: 'hidden'}}>
-                    <div className="flex items-center py-2.5  mt-24 self-center">
+                     <Link href="/">
+                         <div className="py-2.5  mt-24 self-center">Home</div>
+                     </Link>
+                    <div className="flex items-center py-2.5 self-center">
                         <a href='/Whitepaper.pdf' target='_blank' rel='noreferrer'>
                             <div className="flex items-center    self-center">
                                 <div className='mr-1'>
@@ -123,8 +126,6 @@ export default function Header({height = 0, onRegisterClick}: HeaderProps) {
 
                         </a>
                     </div>
-
-
                     <Link href="/roadmap">
                         <div className="py-2.5  self-center">Roadmap</div>
                     </Link>
